@@ -1,0 +1,355 @@
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.9s
+ ✓ Compiled /src/middleware in 204ms (91 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 4.7s (1122 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+ ✓ Compiled in 551ms (518 modules)
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET / 200 in 5608ms
+ ○ Compiling /[slug] ...
+ ✓ Compiled /[slug] in 756ms (1134 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+[CategoryPage] Rendering category: Festival and Rave Blankets
+[ProductCache] Getting products for category: festival-rave-blankets
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+[ProductCache] Found category ID: 40 for slug: festival-rave-blankets
+[ProductCache] Found 10 products for category: festival-rave-blankets
+ GET /festival-rave-blankets 200 in 1869ms
+[CategoryPage] Rendering category: Festival Rave Outfits
+[ProductCache] Getting products for category: festival-rave-outfits
+[ProductCache] Found category ID: 51 for slug: festival-rave-outfits
+[ProductCache] Found 11 products for category: festival-rave-outfits
+ GET /festival-rave-outfits 200 in 405ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[CategoryPage] Rendering category: Festival Rave Outfits
+[ProductCache] Getting products for category: festival-rave-outfits
+[ProductCache] Found 11 products in cache for category: festival-rave-outfits
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET /festival-rave-outfits 200 in 359ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[CategoryPage] Rendering category: Festival Rave Outfits
+[ProductCache] Getting products for category: festival-rave-outfits
+[ProductCache] Found 11 products in cache for category: festival-rave-outfits
+[WooCommerce] Successfully fetched 25 categories
+ GET /festival-rave-outfits 200 in 241ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[CategoryPage] Rendering category: Festival Rave Outfits
+[ProductCache] Getting products for category: festival-rave-outfits
+[ProductCache] Found 11 products in cache for category: festival-rave-outfits
+[WooCommerce] Successfully fetched 25 categories
+ GET /festival-rave-outfits 200 in 222ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com

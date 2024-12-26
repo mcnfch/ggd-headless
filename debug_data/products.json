@@ -1,0 +1,2214 @@
+[
+    {
+      "id": 2204,
+      "name": "Snuggle Blanket",
+      "slug": "snuggle-blanket",
+      "permalink": "https://woo.festivalravegear.com/product/snuggle-blanket",
+      "date_created": "2024-12-12T20:37:26",
+      "date_created_gmt": "2024-12-12T20:37:26",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>There's no need to get out of bed when you can wear a blanket all day. These incredibly comfy and soft hooded blankets are the perfect choice for cozy days at home. The 100% polyester fabric ensures durability through regular wear. We'll print your original designs onto the front of the blanket in vibrant colors and high resolution. Choose between the two inner lining options – microfleece or sherpa.</p>\n<p>.: Material: 100% polyester micro-mink outer fabric<br />.: One size: 80\" × 55\" (203 x 140 cm)<br />.: Two lining options: ultra soft microfleece or plush polyester sherpa<br />.: Seam thread color automatically matched to design<br />.: Elastic straps on the inside<br />.: One-sided print</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "41.18",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2291,
+          "date_created": "2024-12-12T20:40:46",
+          "date_created_gmt": "2024-12-12T20:40:46",
+          "date_modified": "2024-12-12T20:40:46",
+          "date_modified_gmt": "2024-12-12T20:40:46",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/1969072765995514001_2048.jpeg",
+          "name": "1969072765995514001_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2292,
+          "date_created": "2024-12-12T20:40:47",
+          "date_created_gmt": "2024-12-12T20:40:47",
+          "date_modified": "2024-12-12T20:40:47",
+          "date_modified_gmt": "2024-12-12T20:40:47",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/6311941461903571948_2048.jpeg",
+          "name": "6311941461903571948_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2293,
+          "date_created": "2024-12-12T20:40:49",
+          "date_created_gmt": "2024-12-12T20:40:49",
+          "date_modified": "2024-12-12T20:40:49",
+          "date_modified_gmt": "2024-12-12T20:40:49",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/17944166753531638768_2048.jpeg",
+          "name": "17944166753531638768_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2294,
+          "date_created": "2024-12-12T20:40:50",
+          "date_created_gmt": "2024-12-12T20:40:50",
+          "date_modified": "2024-12-12T20:40:50",
+          "date_modified_gmt": "2024-12-12T20:40:50",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/2704264886103968239_2048.jpeg",
+          "name": "2704264886103968239_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2295,
+          "date_created": "2024-12-12T20:40:51",
+          "date_created_gmt": "2024-12-12T20:40:51",
+          "date_modified": "2024-12-12T20:40:51",
+          "date_modified_gmt": "2024-12-12T20:40:51",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/6947857328736159101_2048.jpeg",
+          "name": "6947857328736159101_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2296,
+          "date_created": "2024-12-12T20:40:52",
+          "date_created_gmt": "2024-12-12T20:40:52",
+          "date_modified": "2024-12-12T20:40:52",
+          "date_modified_gmt": "2024-12-12T20:40:52",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/5440683947428876399_2048.jpeg",
+          "name": "5440683947428876399_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2297,
+          "date_created": "2024-12-12T20:40:54",
+          "date_created_gmt": "2024-12-12T20:40:54",
+          "date_modified": "2024-12-12T20:40:54",
+          "date_modified_gmt": "2024-12-12T20:40:54",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/16042573499220328147_2048.jpeg",
+          "name": "16042573499220328147_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2205,
+        2206
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>41.18</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>46.93</bdi></span>",
+      "related_ids": [
+        2167,
+        2154,
+        81,
+        2201,
+        2177
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2204",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2201,
+      "name": "Rainbow Tie-Dye Hoodie Cloak Blanket: A Vibrant Thank You for Your Festival Companions",
+      "slug": "rainbow-tie-dye-hoodie-cloak-blanket-a-vibrant-thank-you-for-your-festival-companions",
+      "permalink": "https://woo.festivalravegear.com/product/rainbow-tie-dye-hoodie-cloak-blanket-a-vibrant-thank-you-for-your-festival-companions",
+      "date_created": "2024-12-12T20:37:24",
+      "date_created_gmt": "2024-12-12T20:37:24",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Express your gratitude with our Rainbow Tie-Dye Hoodie Cloak Blanket. This vibrant piece, adorned with a heartfelt 'Thank You for Just Being There', is a perfect way to show appreciation to your festival companions. More than just a colorful fashion statement, it's a cozy blanket perfect for those cool festival nights. Wrap yourself in its warmth while dancing to your favorite tunes, use it as an extra layer in your tent, or spread it out for a spontaneous picnic amidst the festival buzz. With this Rainbow Tie-Dye Hoodie Cloak Blanket, you're not just attending a festival - you're celebrating the love and joy of togetherness in comfort and style.</p>\n<table id=\"size-guide\" style=\"min-width: 360px\">\n<thead>\n<tr>\n<th style=\"padding: 10px\">&nbsp;</th>\n<th style=\"color: #000000;font-weight: 500;text-align: left;font-size: 15px;padding: 10px\">80\" &times; 55\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Length, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">79.92</td>\n</tr>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Width, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">55.12</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "60",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2284,
+          "date_created": "2024-12-12T20:40:26",
+          "date_created_gmt": "2024-12-12T20:40:26",
+          "date_modified": "2024-12-12T20:40:26",
+          "date_modified_gmt": "2024-12-12T20:40:26",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/4716039569174232695_2048.jpeg",
+          "name": "4716039569174232695_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2285,
+          "date_created": "2024-12-12T20:40:27",
+          "date_created_gmt": "2024-12-12T20:40:27",
+          "date_modified": "2024-12-12T20:40:27",
+          "date_modified_gmt": "2024-12-12T20:40:27",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/15365482519547052036_2048.jpeg",
+          "name": "15365482519547052036_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2286,
+          "date_created": "2024-12-12T20:40:29",
+          "date_created_gmt": "2024-12-12T20:40:29",
+          "date_modified": "2024-12-12T20:40:29",
+          "date_modified_gmt": "2024-12-12T20:40:29",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/14308919193092860137_2048.jpeg",
+          "name": "14308919193092860137_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2287,
+          "date_created": "2024-12-12T20:40:30",
+          "date_created_gmt": "2024-12-12T20:40:30",
+          "date_modified": "2024-12-12T20:40:30",
+          "date_modified_gmt": "2024-12-12T20:40:30",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/3513660016100226972_2048.jpeg",
+          "name": "3513660016100226972_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2288,
+          "date_created": "2024-12-12T20:40:31",
+          "date_created_gmt": "2024-12-12T20:40:31",
+          "date_modified": "2024-12-12T20:40:31",
+          "date_modified_gmt": "2024-12-12T20:40:31",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/16643638413061392376_2048.jpeg",
+          "name": "16643638413061392376_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2289,
+          "date_created": "2024-12-12T20:40:33",
+          "date_created_gmt": "2024-12-12T20:40:33",
+          "date_modified": "2024-12-12T20:40:33",
+          "date_modified_gmt": "2024-12-12T20:40:33",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/17949408270997807921_2048.jpeg",
+          "name": "17949408270997807921_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2290,
+          "date_created": "2024-12-12T20:40:34",
+          "date_created_gmt": "2024-12-12T20:40:34",
+          "date_modified": "2024-12-12T20:40:34",
+          "date_modified_gmt": "2024-12-12T20:40:34",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/888992693101027909_2048.jpeg",
+          "name": "888992693101027909_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2202,
+        2203
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>60.00</bdi></span>",
+      "related_ids": [
+        2183,
+        2186,
+        2177,
+        2180,
+        2197
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2201",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2197,
+      "name": "Pink &amp; Black Paint Dip Hoodie Cloak Blanket: Make a Splash at Your Festival",
+      "slug": "pink-black-paint-dip-hoodie-cloak-blanket-make-a-splash-at-your-festival",
+      "permalink": "https://woo.festivalravegear.com/product/pink-black-paint-dip-hoodie-cloak-blanket-make-a-splash-at-your-festival",
+      "date_created": "2024-12-12T20:37:21",
+      "date_created_gmt": "2024-12-12T20:37:21",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Dive into the festival scene with our Pink &amp; Black Paint Dip Hoodie Cloak Blanket. This unique piece features a striking paint dip design in pink and black, symbolizing creativity and bold self-expression. More than just a vibrant fashion statement, it's a cozy blanket perfect for those cool festival nights. Wrap yourself in its warmth while dancing to your favorite tunes, use it as an extra layer in your tent, or spread it out for a spontaneous picnic amidst the festival buzz. With this Pink &amp; Black Paint Dip Hoodie Cloak Blanket, you're not just attending a festival - you're making a splash in comfort and style.</p>\n<table id=\"size-guide\" style=\"min-width: 360px\">\n<thead>\n<tr>\n<th style=\"padding: 10px\">&nbsp;</th>\n<th style=\"color: #000000;font-weight: 500;text-align: left;font-size: 15px;padding: 10px\">50\" &times; 40\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Length, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">50.00</td>\n</tr>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Width, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">40.00</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "60",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2281,
+          "date_created": "2024-12-12T20:40:17",
+          "date_created_gmt": "2024-12-12T20:40:17",
+          "date_modified": "2024-12-12T20:40:17",
+          "date_modified_gmt": "2024-12-12T20:40:17",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/4609225096327432955_2048.jpeg",
+          "name": "4609225096327432955_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2282,
+          "date_created": "2024-12-12T20:40:18",
+          "date_created_gmt": "2024-12-12T20:40:18",
+          "date_modified": "2024-12-12T20:40:18",
+          "date_modified_gmt": "2024-12-12T20:40:18",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/18080828589979784672_2048.jpeg",
+          "name": "18080828589979784672_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2283,
+          "date_created": "2024-12-12T20:40:20",
+          "date_created_gmt": "2024-12-12T20:40:20",
+          "date_modified": "2024-12-12T20:40:20",
+          "date_modified_gmt": "2024-12-12T20:40:20",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/17333405873828283408_2048.jpeg",
+          "name": "17333405873828283408_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Home Decor Size",
+          "slug": "Home Decor Size",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "50\" × 40\""
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Home Decor Size",
+          "option": "50\" × 40\""
+        }
+      ],
+      "variations": [
+        2198
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>60.00</bdi></span>",
+      "related_ids": [
+        90,
+        2140,
+        2189,
+        2161,
+        148
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2197",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2192,
+      "name": "Queen of the Psychedelic Butterflies Hoodie Cloak Blanket: Embrace Your Festival Transformation",
+      "slug": "queen-of-the-psychedelic-butterflies-hoodie-cloak-blanket-embrace-your-festival-transformation",
+      "permalink": "https://woo.festivalravegear.com/product/queen-of-the-psychedelic-butterflies-hoodie-cloak-blanket-embrace-your-festival-transformation",
+      "date_created": "2024-12-12T20:37:19",
+      "date_created_gmt": "2024-12-12T20:37:19",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Step into a world of vibrant transformation with our Queen of the Psychedelic Butterflies Hoodie Cloak Blanket. This unique piece features a mesmerizing design of colorful butterflies, symbolizing freedom and metamorphosis. More than just a captivating fashion statement, it's a cozy blanket perfect for those cool festival nights. Wrap yourself in its warmth while dancing to your favorite tunes, use it as an extra layer in your tent, or spread it out for a spontaneous picnic amidst the festival buzz. With this Queen of the Psychedelic Butterflies Hoodie Cloak Blanket, you're not just attending a festival - you're embracing your festival transformation in comfort and style.</p>\n<table id=\"size-guide\" style=\"min-width: 360px\">\n<thead>\n<tr>\n<th style=\"padding: 10px\">&nbsp;</th>\n<th style=\"color: #000000;font-weight: 500;text-align: left;font-size: 15px;padding: 10px\">80\" &times; 55\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Length, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">79.92</td>\n</tr>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Width, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">55.12</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "60",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2274,
+          "date_created": "2024-12-12T20:40:00",
+          "date_created_gmt": "2024-12-12T20:40:00",
+          "date_modified": "2024-12-12T20:40:00",
+          "date_modified_gmt": "2024-12-12T20:40:00",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/15795369768664293871_2048.jpeg",
+          "name": "15795369768664293871_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2275,
+          "date_created": "2024-12-12T20:40:02",
+          "date_created_gmt": "2024-12-12T20:40:02",
+          "date_modified": "2024-12-12T20:40:02",
+          "date_modified_gmt": "2024-12-12T20:40:02",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/8362422359408417638_2048.jpeg",
+          "name": "8362422359408417638_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2276,
+          "date_created": "2024-12-12T20:40:04",
+          "date_created_gmt": "2024-12-12T20:40:04",
+          "date_modified": "2024-12-12T20:40:04",
+          "date_modified_gmt": "2024-12-12T20:40:04",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/4521115001134433125_2048.jpeg",
+          "name": "4521115001134433125_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2277,
+          "date_created": "2024-12-12T20:40:05",
+          "date_created_gmt": "2024-12-12T20:40:05",
+          "date_modified": "2024-12-12T20:40:05",
+          "date_modified_gmt": "2024-12-12T20:40:05",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/12937881599008091888_2048.jpeg",
+          "name": "12937881599008091888_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2278,
+          "date_created": "2024-12-12T20:40:07",
+          "date_created_gmt": "2024-12-12T20:40:07",
+          "date_modified": "2024-12-12T20:40:07",
+          "date_modified_gmt": "2024-12-12T20:40:07",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/14112996642727001215_2048.jpeg",
+          "name": "14112996642727001215_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2279,
+          "date_created": "2024-12-12T20:40:08",
+          "date_created_gmt": "2024-12-12T20:40:08",
+          "date_modified": "2024-12-12T20:40:08",
+          "date_modified_gmt": "2024-12-12T20:40:08",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/8721624238939798870_2048.jpeg",
+          "name": "8721624238939798870_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2280,
+          "date_created": "2024-12-12T20:40:09",
+          "date_created_gmt": "2024-12-12T20:40:09",
+          "date_modified": "2024-12-12T20:40:09",
+          "date_modified_gmt": "2024-12-12T20:40:09",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/14147809749859173044_2048.jpeg",
+          "name": "14147809749859173044_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2193,
+        2195
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>60.00</bdi></span>",
+      "related_ids": [
+        2197,
+        42,
+        2201,
+        81,
+        2180
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2192",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2189,
+      "name": "Lunatic Fringe Hoodie Cloak Blanket: Navigate Your Festival Journey in Style",
+      "slug": "lunatic-fringe-hoodie-cloak-blanket-navigate-your-festival-journey-in-style",
+      "permalink": "https://woo.festivalravegear.com/product/lunatic-fringe-hoodie-cloak-blanket-navigate-your-festival-journey-in-style",
+      "date_created": "2024-12-12T20:37:18",
+      "date_created_gmt": "2024-12-12T20:37:18",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Chart your festival journey with our Lunatic Fringe Hoodie Cloak Blanket. This unique piece features an elaborately adorned compass design with a moon at its heart, guiding you through your festival experience in style. More than just a captivating fashion statement, it's a cozy blanket perfect for those cool festival nights. Wrap yourself in its warmth while dancing under the moonlight, use it as an extra layer in your tent, or spread it out for a spontaneous picnic amidst the festival buzz. With this Lunatic Fringe Hoodie Cloak Blanket, you're not just attending a festival - you're navigating the festival landscape in comfort and style.</p>\n<table id=\"size-guide\" style=\"min-width: 360px\">\n<thead>\n<tr>\n<th style=\"padding: 10px\">&nbsp;</th>\n<th style=\"color: #000000;font-weight: 500;text-align: left;font-size: 15px;padding: 10px\">80\" &times; 55\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Length, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">79.92</td>\n</tr>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Width, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">55.12</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "60",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2267,
+          "date_created": "2024-12-12T20:39:47",
+          "date_created_gmt": "2024-12-12T20:39:47",
+          "date_modified": "2024-12-12T20:39:47",
+          "date_modified_gmt": "2024-12-12T20:39:47",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/3911286796328848834_2048.jpeg",
+          "name": "3911286796328848834_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2268,
+          "date_created": "2024-12-12T20:39:48",
+          "date_created_gmt": "2024-12-12T20:39:48",
+          "date_modified": "2024-12-12T20:39:48",
+          "date_modified_gmt": "2024-12-12T20:39:48",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/7942683753585391005_2048.jpeg",
+          "name": "7942683753585391005_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2269,
+          "date_created": "2024-12-12T20:39:49",
+          "date_created_gmt": "2024-12-12T20:39:49",
+          "date_modified": "2024-12-12T20:39:49",
+          "date_modified_gmt": "2024-12-12T20:39:49",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/3462016549715171346_2048.jpeg",
+          "name": "3462016549715171346_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2270,
+          "date_created": "2024-12-12T20:39:51",
+          "date_created_gmt": "2024-12-12T20:39:51",
+          "date_modified": "2024-12-12T20:39:51",
+          "date_modified_gmt": "2024-12-12T20:39:51",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/10517047367721327682_2048.jpeg",
+          "name": "10517047367721327682_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2271,
+          "date_created": "2024-12-12T20:39:52",
+          "date_created_gmt": "2024-12-12T20:39:52",
+          "date_modified": "2024-12-12T20:39:52",
+          "date_modified_gmt": "2024-12-12T20:39:52",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/13045113771948661972_2048.jpeg",
+          "name": "13045113771948661972_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2272,
+          "date_created": "2024-12-12T20:39:54",
+          "date_created_gmt": "2024-12-12T20:39:54",
+          "date_modified": "2024-12-12T20:39:54",
+          "date_modified_gmt": "2024-12-12T20:39:54",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/11931320906948882705_2048.jpeg",
+          "name": "11931320906948882705_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2273,
+          "date_created": "2024-12-12T20:39:55",
+          "date_created_gmt": "2024-12-12T20:39:55",
+          "date_modified": "2024-12-12T20:39:55",
+          "date_modified_gmt": "2024-12-12T20:39:55",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/18303786802962425229_2048.jpeg",
+          "name": "18303786802962425229_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2190,
+        2191
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>60.00</bdi></span>",
+      "related_ids": [
+        2197,
+        2192,
+        2161,
+        2154,
+        2201
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2189",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2186,
+      "name": "Psychedelic Unicorn Hoodie Cloak Blanket: Embrace the Magic of Festival Comfort",
+      "slug": "psychedelic-unicorn-hoodie-cloak-blanket-embrace-the-magic-of-festival-comfort",
+      "permalink": "https://woo.festivalravegear.com/product/psychedelic-unicorn-hoodie-cloak-blanket-embrace-the-magic-of-festival-comfort",
+      "date_created": "2024-12-12T20:37:15",
+      "date_created_gmt": "2024-12-12T20:37:15",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Step into a world of comfort and magic with our Psychedelic Unicorn Hoodie Cloak Blanket. This unique festival essential features a surreal unicorn design that's sure to turn heads and spark conversations. More than just a vibrant fashion statement, it's a cozy blanket perfect for those cool festival evenings. Wrap yourself in its warmth while dancing to your favorite tunes, use it as an extra layer in your tent, or spread it out for a spontaneous picnic under the stars. With this Psychedelic Unicorn Hoodie Cloak Blanket, you're not just attending a festival - you're embracing the magical festival lifestyle in comfort and style.</p>\n<table id=\"size-guide\" style=\"min-width: 360px\">\n<thead>\n<tr>\n<th style=\"padding: 10px\">&nbsp;</th>\n<th style=\"color: #000000;font-weight: 500;text-align: left;font-size: 15px;padding: 10px\">80\" &times; 55\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Length, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">79.92</td>\n</tr>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Width, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">55.12</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "60",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2260,
+          "date_created": "2024-12-12T20:39:32",
+          "date_created_gmt": "2024-12-12T20:39:32",
+          "date_modified": "2024-12-12T20:39:32",
+          "date_modified_gmt": "2024-12-12T20:39:32",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/14048280638051825006_2048.jpeg",
+          "name": "14048280638051825006_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2261,
+          "date_created": "2024-12-12T20:39:34",
+          "date_created_gmt": "2024-12-12T20:39:34",
+          "date_modified": "2024-12-12T20:39:34",
+          "date_modified_gmt": "2024-12-12T20:39:34",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/6706197792013957774_2048.jpeg",
+          "name": "6706197792013957774_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2262,
+          "date_created": "2024-12-12T20:39:35",
+          "date_created_gmt": "2024-12-12T20:39:35",
+          "date_modified": "2024-12-12T20:39:35",
+          "date_modified_gmt": "2024-12-12T20:39:35",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/13478945833728251956_2048.jpeg",
+          "name": "13478945833728251956_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2263,
+          "date_created": "2024-12-12T20:39:36",
+          "date_created_gmt": "2024-12-12T20:39:36",
+          "date_modified": "2024-12-12T20:39:36",
+          "date_modified_gmt": "2024-12-12T20:39:36",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/13958189789228849355_2048.jpeg",
+          "name": "13958189789228849355_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2264,
+          "date_created": "2024-12-12T20:39:37",
+          "date_created_gmt": "2024-12-12T20:39:37",
+          "date_modified": "2024-12-12T20:39:37",
+          "date_modified_gmt": "2024-12-12T20:39:37",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/17995727692477773711_2048.jpeg",
+          "name": "17995727692477773711_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2265,
+          "date_created": "2024-12-12T20:39:39",
+          "date_created_gmt": "2024-12-12T20:39:39",
+          "date_modified": "2024-12-12T20:39:39",
+          "date_modified_gmt": "2024-12-12T20:39:39",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/14650491129010899379_2048.jpeg",
+          "name": "14650491129010899379_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2266,
+          "date_created": "2024-12-12T20:39:40",
+          "date_created_gmt": "2024-12-12T20:39:40",
+          "date_modified": "2024-12-12T20:39:40",
+          "date_modified_gmt": "2024-12-12T20:39:40",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/16774848344505953251_2048.jpeg",
+          "name": "16774848344505953251_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2187,
+        2188
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>60.00</bdi></span>",
+      "related_ids": [
+        81,
+        90,
+        2174,
+        2154,
+        2167
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2186",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2183,
+      "name": "Angel Wings Hoodie Cloak Blanket: A Heavenly Gift for Festival Lovers",
+      "slug": "angel-wings-hoodie-cloak-blanket-a-heavenly-gift-for-festival-lovers",
+      "permalink": "https://woo.festivalravegear.com/product/angel-wings-hoodie-cloak-blanket-a-heavenly-gift-for-festival-lovers",
+      "date_created": "2024-12-12T20:37:13",
+      "date_created_gmt": "2024-12-12T20:37:13",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Give the gift of comfort and style with our Angel Wings Hoodie Cloak Blanket. This unique piece is more than just a garment - it's a festival essential that doubles as a thoughtful gift. Adorned with a beautiful angel wings design, it's a heavenly fashion statement that also serves as a cozy blanket for those cool festival nights. Your loved one can wrap themselves in its warmth while dancing under the stars, use it as an extra layer in their tent, or spread it out for a spontaneous picnic amidst the festival buzz. With this Angel Wings Hoodie Cloak Blanket, you're not just giving a gift - you're giving a memorable festival experience.</p>\n<table id=\"size-guide\" style=\"min-width: 360px\">\n<thead>\n<tr>\n<th style=\"padding: 10px\">&nbsp;</th>\n<th style=\"color: #000000;font-weight: 500;text-align: left;font-size: 15px;padding: 10px\">80\" &times; 55\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Length, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">79.92</td>\n</tr>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Width, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">55.12</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "60",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2253,
+          "date_created": "2024-12-12T20:39:15",
+          "date_created_gmt": "2024-12-12T20:39:15",
+          "date_modified": "2024-12-12T20:39:15",
+          "date_modified_gmt": "2024-12-12T20:39:15",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/17263910046821917572_2048.jpeg",
+          "name": "17263910046821917572_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2254,
+          "date_created": "2024-12-12T20:39:16",
+          "date_created_gmt": "2024-12-12T20:39:16",
+          "date_modified": "2024-12-12T20:39:16",
+          "date_modified_gmt": "2024-12-12T20:39:16",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/10719441831776977649_2048.jpeg",
+          "name": "10719441831776977649_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2255,
+          "date_created": "2024-12-12T20:39:18",
+          "date_created_gmt": "2024-12-12T20:39:18",
+          "date_modified": "2024-12-12T20:39:18",
+          "date_modified_gmt": "2024-12-12T20:39:18",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/9349573023693832567_2048.jpeg",
+          "name": "9349573023693832567_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2256,
+          "date_created": "2024-12-12T20:39:19",
+          "date_created_gmt": "2024-12-12T20:39:19",
+          "date_modified": "2024-12-12T20:39:19",
+          "date_modified_gmt": "2024-12-12T20:39:19",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/3298673192521887382_2048.jpeg",
+          "name": "3298673192521887382_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2257,
+          "date_created": "2024-12-12T20:39:20",
+          "date_created_gmt": "2024-12-12T20:39:20",
+          "date_modified": "2024-12-12T20:39:20",
+          "date_modified_gmt": "2024-12-12T20:39:20",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/8954681951830441054_2048.jpeg",
+          "name": "8954681951830441054_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2258,
+          "date_created": "2024-12-12T20:39:22",
+          "date_created_gmt": "2024-12-12T20:39:22",
+          "date_modified": "2024-12-12T20:39:22",
+          "date_modified_gmt": "2024-12-12T20:39:22",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/14320993453108964605_2048.jpeg",
+          "name": "14320993453108964605_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2259,
+          "date_created": "2024-12-12T20:39:23",
+          "date_created_gmt": "2024-12-12T20:39:23",
+          "date_modified": "2024-12-12T20:39:23",
+          "date_modified_gmt": "2024-12-12T20:39:23",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/2571042379820431413_2048.jpeg",
+          "name": "2571042379820431413_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2184,
+        2185
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>60.00</bdi></span>",
+      "related_ids": [
+        2201,
+        2186,
+        2204,
+        2180,
+        2161
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2183",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2180,
+      "name": "Celestial Rainbow Paisley Hoodie Cloak Blanket: Illuminate Your Festival Experience",
+      "slug": "celestial-rainbow-paisley-hoodie-cloak-blanket-illuminate-your-festival-experience",
+      "permalink": "https://woo.festivalravegear.com/product/celestial-rainbow-paisley-hoodie-cloak-blanket-illuminate-your-festival-experience",
+      "date_created": "2024-12-12T20:37:11",
+      "date_created_gmt": "2024-12-12T20:37:11",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Light up your festival journey with our Celestial Rainbow Paisley Hoodie Cloak Blanket. This unique piece features a radiant paisley design, bringing a touch of celestial magic to your festival attire. More than just a vibrant fashion statement, it's a cozy blanket perfect for those cool festival nights. Wrap yourself in its warmth while dancing under the stars, use it as an extra layer in your tent, or spread it out for a spontaneous picnic amidst the festival buzz. With this Celestial Rainbow Paisley Hoodie Cloak Blanket, you're not just attending a festival - you're illuminating the festival landscape in comfort and style.</p>\n<table id=\"size-guide\" style=\"min-width: 360px\">\n<thead>\n<tr>\n<th style=\"padding: 10px\">&nbsp;</th>\n<th style=\"color: #000000;font-weight: 500;text-align: left;font-size: 15px;padding: 10px\">80\" &times; 55\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Length, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">79.92</td>\n</tr>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Width, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">55.12</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "60",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2246,
+          "date_created": "2024-12-12T20:39:02",
+          "date_created_gmt": "2024-12-12T20:39:02",
+          "date_modified": "2024-12-12T20:39:02",
+          "date_modified_gmt": "2024-12-12T20:39:02",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/1790781341266241543_2048.jpeg",
+          "name": "1790781341266241543_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2247,
+          "date_created": "2024-12-12T20:39:03",
+          "date_created_gmt": "2024-12-12T20:39:03",
+          "date_modified": "2024-12-12T20:39:03",
+          "date_modified_gmt": "2024-12-12T20:39:03",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/11667569296927639244_2048.jpeg",
+          "name": "11667569296927639244_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2248,
+          "date_created": "2024-12-12T20:39:04",
+          "date_created_gmt": "2024-12-12T20:39:04",
+          "date_modified": "2024-12-12T20:39:04",
+          "date_modified_gmt": "2024-12-12T20:39:04",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/12906581972227183925_2048.jpeg",
+          "name": "12906581972227183925_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2249,
+          "date_created": "2024-12-12T20:39:05",
+          "date_created_gmt": "2024-12-12T20:39:05",
+          "date_modified": "2024-12-12T20:39:05",
+          "date_modified_gmt": "2024-12-12T20:39:05",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/9055168790250463831_2048.jpeg",
+          "name": "9055168790250463831_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2250,
+          "date_created": "2024-12-12T20:39:06",
+          "date_created_gmt": "2024-12-12T20:39:06",
+          "date_modified": "2024-12-12T20:39:06",
+          "date_modified_gmt": "2024-12-12T20:39:06",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/17904157345261104163_2048.jpeg",
+          "name": "17904157345261104163_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2251,
+          "date_created": "2024-12-12T20:39:08",
+          "date_created_gmt": "2024-12-12T20:39:08",
+          "date_modified": "2024-12-12T20:39:08",
+          "date_modified_gmt": "2024-12-12T20:39:08",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/8506132991477610578_2048.jpeg",
+          "name": "8506132991477610578_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2252,
+          "date_created": "2024-12-12T20:39:09",
+          "date_created_gmt": "2024-12-12T20:39:09",
+          "date_modified": "2024-12-12T20:39:09",
+          "date_modified_gmt": "2024-12-12T20:39:09",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/3836199676852171440_2048.jpeg",
+          "name": "3836199676852171440_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2181,
+        2182
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>60.00</bdi></span>",
+      "related_ids": [
+        2140,
+        2147,
+        2204,
+        2197,
+        2189
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2180",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2177,
+      "name": "Bioluminescent Mushrooms Hoodie Cloak Blanket: Light Up Your Festival Nights",
+      "slug": "bioluminescent-mushrooms-hoodie-cloak-blanket-light-up-your-festival-nights",
+      "permalink": "https://woo.festivalravegear.com/product/bioluminescent-mushrooms-hoodie-cloak-blanket-light-up-your-festival-nights",
+      "date_created": "2024-12-12T20:37:09",
+      "date_created_gmt": "2024-12-12T20:37:09",
+      "date_modified": "2024-12-12T20:41:28",
+      "date_modified_gmt": "2024-12-12T20:41:28",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Illuminate your festival experience with our Bioluminescent Mushrooms Hoodie Cloak Blanket. This unique piece features a captivating design of glowing mushrooms, adding a touch of natural magic to your festival attire. More than just a vibrant fashion statement, it's a cozy blanket perfect for those cool festival nights. Wrap yourself in its warmth while dancing under the stars, use it as an extra layer in your tent, or spread it out for a spontaneous picnic amidst the festival buzz. With this Bioluminescent Mushrooms Hoodie Cloak Blanket, you're not just attending a festival - you're lighting up the festival landscape in comfort and style.</p>\n<table id=\"size-guide\" style=\"min-width: 360px\">\n<thead>\n<tr>\n<th style=\"padding: 10px\">&nbsp;</th>\n<th style=\"color: #000000;font-weight: 500;text-align: left;font-size: 15px;padding: 10px\">80\" &times; 55\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Length, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">79.92</td>\n</tr>\n<tr>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">Width, in</td>\n<td style=\"padding: 10px;color: #525252;font-size: 15px;border-top: 1px solid #ededed\">55.12</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "60",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2239,
+          "date_created": "2024-12-12T20:38:47",
+          "date_created_gmt": "2024-12-12T20:38:47",
+          "date_modified": "2024-12-12T20:38:47",
+          "date_modified_gmt": "2024-12-12T20:38:47",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/4460342368021040729_2048.jpeg",
+          "name": "4460342368021040729_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2240,
+          "date_created": "2024-12-12T20:38:48",
+          "date_created_gmt": "2024-12-12T20:38:48",
+          "date_modified": "2024-12-12T20:38:48",
+          "date_modified_gmt": "2024-12-12T20:38:48",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/14799722816640403058_2048.jpeg",
+          "name": "14799722816640403058_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2241,
+          "date_created": "2024-12-12T20:38:49",
+          "date_created_gmt": "2024-12-12T20:38:49",
+          "date_modified": "2024-12-12T20:38:49",
+          "date_modified_gmt": "2024-12-12T20:38:49",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/15870924559230754134_2048.jpeg",
+          "name": "15870924559230754134_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2242,
+          "date_created": "2024-12-12T20:38:51",
+          "date_created_gmt": "2024-12-12T20:38:51",
+          "date_modified": "2024-12-12T20:38:51",
+          "date_modified_gmt": "2024-12-12T20:38:51",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/2945972558127739841_2048.jpeg",
+          "name": "2945972558127739841_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2243,
+          "date_created": "2024-12-12T20:38:52",
+          "date_created_gmt": "2024-12-12T20:38:52",
+          "date_modified": "2024-12-12T20:38:52",
+          "date_modified_gmt": "2024-12-12T20:38:52",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/8812002510306475316_2048.jpeg",
+          "name": "8812002510306475316_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2244,
+          "date_created": "2024-12-12T20:38:53",
+          "date_created_gmt": "2024-12-12T20:38:53",
+          "date_modified": "2024-12-12T20:38:53",
+          "date_modified_gmt": "2024-12-12T20:38:53",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/7731537159001916197_2048.jpeg",
+          "name": "7731537159001916197_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2245,
+          "date_created": "2024-12-12T20:38:54",
+          "date_created_gmt": "2024-12-12T20:38:54",
+          "date_modified": "2024-12-12T20:38:54",
+          "date_modified_gmt": "2024-12-12T20:38:54",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/6676489127536318740_2048.jpeg",
+          "name": "6676489127536318740_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2178,
+        2179
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>60.00</bdi></span>",
+      "related_ids": [
+        2189,
+        2180,
+        2171,
+        148,
+        2192
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2177",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2174,
+      "name": "Inferno Flow Hoodie Blanket",
+      "slug": "inferno-flow-hoodie-blanket",
+      "permalink": "https://woo.festivalravegear.com/product/inferno-flow-hoodie-blanket",
+      "date_created": "2024-12-12T20:37:07",
+      "date_created_gmt": "2024-12-12T20:37:07",
+      "date_modified": "2024-12-12T20:41:29",
+      "date_modified_gmt": "2024-12-12T20:41:29",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p><strong>D</strong>Wrap yourself in warmth and fiery style with the \"Inferno Flow Hoodie Blanket.\" Featuring a dynamic swirl of red, orange, and purple tones, this blanket brings the heat with its vibrant, molten design. Perfect for cozy nights in, festivals, or chilly outdoor adventures, this hoodie blanket combines comfort and bold fashion effortlessly. Made from ultra-soft, plush fabric, it&rsquo;s designed to keep you warm while turning heads. Ignite your relaxation time with this stunning, statement-making hoodie blanket!</p>\n<p>.: Material: 100% polyester micro-mink outer fabric<br />.: One size: 80\" &times; 55\" (203 x 140 cm)<br />.: Two lining options: ultra soft microfleece or plush polyester sherpa<br />.: Seam thread color automatically matched to design<br />.: Elastic straps on the inside<br />.: One-sided print</p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "61.78",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Festival Rave Hoodie Blankets",
+          "slug": "festival-rave-hoodie-blankets"
+        },
+        {
+          "id": 34,
+          "name": "Groovy Gear",
+          "slug": "groovy-gear"
+        },
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "id": 2232,
+          "date_created": "2024-12-12T20:38:33",
+          "date_created_gmt": "2024-12-12T20:38:33",
+          "date_modified": "2024-12-12T20:38:33",
+          "date_modified_gmt": "2024-12-12T20:38:33",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/919978180495738478_2048.jpeg",
+          "name": "919978180495738478_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2233,
+          "date_created": "2024-12-12T20:38:35",
+          "date_created_gmt": "2024-12-12T20:38:35",
+          "date_modified": "2024-12-12T20:38:35",
+          "date_modified_gmt": "2024-12-12T20:38:35",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/17727896953975883341_2048.jpeg",
+          "name": "17727896953975883341_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2234,
+          "date_created": "2024-12-12T20:38:36",
+          "date_created_gmt": "2024-12-12T20:38:36",
+          "date_modified": "2024-12-12T20:38:36",
+          "date_modified_gmt": "2024-12-12T20:38:36",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/12549872657890628408_2048.jpeg",
+          "name": "12549872657890628408_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2235,
+          "date_created": "2024-12-12T20:38:37",
+          "date_created_gmt": "2024-12-12T20:38:37",
+          "date_modified": "2024-12-12T20:38:37",
+          "date_modified_gmt": "2024-12-12T20:38:37",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/12218382249961590315_2048.jpeg",
+          "name": "12218382249961590315_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2236,
+          "date_created": "2024-12-12T20:38:39",
+          "date_created_gmt": "2024-12-12T20:38:39",
+          "date_modified": "2024-12-12T20:38:39",
+          "date_modified_gmt": "2024-12-12T20:38:39",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/4796495009799047142_2048.jpeg",
+          "name": "4796495009799047142_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2237,
+          "date_created": "2024-12-12T20:38:40",
+          "date_created_gmt": "2024-12-12T20:38:40",
+          "date_modified": "2024-12-12T20:38:40",
+          "date_modified_gmt": "2024-12-12T20:38:40",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/5934953457119464190_2048.jpeg",
+          "name": "5934953457119464190_2048.jpeg",
+          "alt": ""
+        },
+        {
+          "id": 2238,
+          "date_created": "2024-12-12T20:38:41",
+          "date_created_gmt": "2024-12-12T20:38:41",
+          "date_modified": "2024-12-12T20:38:41",
+          "date_modified_gmt": "2024-12-12T20:38:41",
+          "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/14419000772930126398_2048.jpeg",
+          "name": "14419000772930126398_2048.jpeg",
+          "alt": ""
+        }
+      ],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "slug": "Sizes",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "80\" × 55\""
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "slug": "Lining",
+          "position": 0,
+          "visible": false,
+          "variation": true,
+          "options": [
+            "Microfiber Fleece",
+            "Sherpa"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 0,
+          "name": "Sizes",
+          "option": "80\" × 55\""
+        },
+        {
+          "id": 0,
+          "name": "Lining",
+          "option": "Microfiber Fleece"
+        }
+      ],
+      "variations": [
+        2175,
+        2176
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>61.78</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>70.40</bdi></span>",
+      "related_ids": [
+        2183,
+        2154,
+        2167,
+        2140,
+        2177
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/2174",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    }
+  ]

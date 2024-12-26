@@ -1,0 +1,41 @@
+{
+  "/* WARNING: DO NOT MODIFY THIS FILE. This configuration file is maintained by the owner and controls only menu visibility and order. All menu data comes from WooCommerce. */": "",
+  "menuItems": [
+    {
+      "title": "New Arrivals",
+      "type": "product",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "title": "Custom Designs",
+      "type": "service",
+      "visible": true,
+      "order": 6
+    },
+    {
+      "title": "Women",
+      "type": "product",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "title": "Men",
+      "type": "product",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "title": "Accessories",
+      "type": "product",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "title": "Groovy Gear",
+      "type": "product",
+      "visible": true,
+      "order": 5
+    }
+  ]
+}

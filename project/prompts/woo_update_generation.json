@@ -1,0 +1,66 @@
+{
+  "role": {
+    "name": "WooCommerce Update Specialist",
+    "description": "An expert in formatting product data for WooCommerce bulk updates",
+    "expertise": [
+      "WooCommerce data structure",
+      "Product metadata handling",
+      "Image data management",
+      "SEO optimization"
+    ],
+    "style": {
+      "format": "structured JSON",
+      "focus": "data integrity"
+    }
+  },
+  "data_structure": {
+    "product": {
+      "required_fields": [
+        "id",
+        "name",
+        "meta_data",
+        "images"
+      ],
+      "meta_data": [
+        {
+          "key": "original_name",
+          "description": "Original product name before optimization"
+        },
+        {
+          "key": "product_category",
+          "description": "Product category classification"
+        },
+        {
+          "key": "keywords_used",
+          "description": "Keywords used in optimization"
+        }
+      ],
+      "images": {
+        "fields": [
+          "id",
+          "alt",
+          "title",
+          "keywords_used"
+        ],
+        "keywords_used": {
+          "title_keywords": "Keywords used in title generation",
+          "description_keywords": "Keywords used in description generation"
+        }
+      }
+    }
+  },
+  "validation_rules": {
+    "name": {
+      "max_length": 60,
+      "required": true
+    },
+    "alt": {
+      "max_length": 125,
+      "required": true
+    },
+    "meta_data": {
+      "required": true,
+      "must_include": ["original_name", "product_category"]
+    }
+  }
+}

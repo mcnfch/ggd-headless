@@ -1,0 +1,960 @@
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · turbo
+     · optimizeCss
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'swcMinify' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 1413ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.6s (1167 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+ ✓ Compiled in 461ms (522 modules)
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: newly-dropped
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 33 },
+  totalProducts: 10,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:07 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '10',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 10 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 32 },
+  totalProducts: 74,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:08 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '74',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 74 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 30 },
+  totalProducts: 78,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:09 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '78',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 31 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:09 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 57 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:10 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 58 },
+  totalProducts: 42,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:10 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '42',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 8534ms
+ ○ Compiling /[slug] ...
+ ✓ Compiled /[slug] in 1464ms (1391 modules)
+Time 4ms
+ GET /favicon.ico 500 in 1666ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: newly-dropped
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: newly-dropped
+[WooCommerce] Fetching categories...
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 33 },
+  totalProducts: 10,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:21 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '10',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 10 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+
+Attempting to match slug: apple-touch-icon-precomposed.png
+
+Available categories:
+- Accessories (slug: accessories)
+- Festival and Rave Blankets (slug: festival-rave-blankets)
+- Festival and Rave Bucket Hats (slug: festival-rave-hats)
+- Festival and Rave Hoodie Blankets (slug: festival-rave-hoodie-blankets)
+- Festival and Rave Pashminas (slug: festival-rave-pashmina)
+- Festival and Rave Tapestries (slug: festival-rave-tapestries)
+- Festival Camping (slug: camping-festival)
+- Festival Rave Bags (slug: festival-rave-bags)
+- Festival Rave Bottoms (slug: festival-rave-bottoms)
+- Festival Rave Bottoms (slug: festival-rave-bottoms-men)
+- Festival Rave Dresses (slug: festival-rave-dresses)
+- Festival Rave Outerwear (slug: festival-rave-outerwear)
+- Festival Rave Outerwear (slug: festival-rave-outerwear-men)
+- Festival Rave Outfits (slug: festival-rave-outfits)
+- Festival Rave Sunglasses (slug: festival-rave-sunglasses)
+- Festival Rave Swimwear (slug: festival-rave-swimwear)
+- Festival Rave Tops (slug: festival-rave-tops)
+- Festival Rave Tops (slug: festival-rave-tops-men)
+- Men (slug: men)
+- Men's Festival Rave Footwear (slug: mens-festival-rave-footwear)
+- Newly Dropped (slug: newly-dropped)
+- Shoes (slug: shoes)
+- Uncategorized (slug: uncategorized)
+- Women (slug: women)
+- Women's Festival Rave Footwear (slug: womens-festival-rave-footwear)
+[CategoryPage] Category not found: apple-touch-icon-precomposed.png
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+ GET /apple-touch-icon-precomposed.png 200 in 2256ms
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 33 },
+  totalProducts: 10,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:21 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '10',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 10 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 32 },
+  totalProducts: 74,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:22 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '74',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 74 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 32 },
+  totalProducts: 74,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:22 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '74',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 74 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 30 },
+  totalProducts: 78,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:23 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '78',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 30 },
+  totalProducts: 78,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:23 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '78',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 31 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:23 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 31 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:23 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 57 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:23 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 57 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:23 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 58 },
+  totalProducts: 42,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:24 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '42',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 4150ms
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 58 },
+  totalProducts: 42,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:24 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '42',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 3358ms
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: newly-dropped
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 33 },
+  totalProducts: 10,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:43 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '10',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 10 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 32 },
+  totalProducts: 74,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:44 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '74',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 74 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 30 },
+  totalProducts: 78,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:45 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '78',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 31 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:45 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 57 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:45 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 58 },
+  totalProducts: 42,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 22:59:46 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.festivalravegear.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '42',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 3259ms

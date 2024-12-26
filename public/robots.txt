@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://woo.festivalravegear.com
+
+# Sitemaps
+Sitemap: https://woo.festivalravegear.com/sitemap.xml
+Sitemap: https://woo.festivalravegear.com/server-sitemap.xml

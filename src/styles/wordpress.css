@@ -1,0 +1,61 @@
+.wp-content {
+  @apply max-w-none text-base md:text-lg;
+}
+
+/* WordPress blocks */
+.wp-content .wp-block-list {
+  @apply mb-6 space-y-2 list-disc pl-6;
+}
+
+.wp-content .wp-block-list li {
+  @apply text-gray-800;
+}
+
+.wp-content .wp-block-image {
+  @apply my-6;
+}
+
+.wp-content .wp-block-image img {
+  @apply rounded-lg w-full h-auto;
+}
+
+/* General WordPress content styles */
+.wp-content h2 {
+  @apply text-2xl font-bold mt-8 mb-4;
+}
+
+.wp-content p {
+  @apply mb-4 leading-relaxed;
+}
+
+.wp-content strong {
+  @apply font-bold;
+}
+
+.wp-content a {
+  @apply text-purple-600 hover:text-purple-700 underline;
+}
+
+.wp-content blockquote {
+  @apply border-l-4 border-purple-600 pl-4 italic my-4;
+}
+
+/* Spacing fixes */
+.wp-content br + br {
+  @apply hidden;
+}
+
+.wp-content p:empty {
+  @apply hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .wp-content {
+    @apply text-base;
+  }
+  
+  .wp-content .wp-block-image {
+    @apply my-4;
+  }
+}

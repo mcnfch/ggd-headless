@@ -1,0 +1,64 @@
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1504ms
+ ✓ Compiled /src/middleware in 154ms (91 modules)
+ ○ Compiling /product/[slug] ...
+ ✓ Compiled /product/[slug] in 2.5s (1152 modules)
+ ✓ Compiled in 375ms (522 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped
+[ProductCache] Looking up product with original slug: "halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped"
+[ProductCache] Normalized slug: "halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped"
+[ProductCache] Trying direct slug lookup: "halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped"
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped
+[ProductCache] Looking up product with original slug: "halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped"
+[ProductCache] Normalized slug: "halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped"
+[ProductCache] Trying direct slug lookup: "halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped"
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: Rave Party Diamond Dunglasses Music Festival Diamond Shaped Shades (halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped)
+[ProductCache] Found product by direct lookup: Rave Party Diamond Dunglasses Music Festival Diamond Shaped Shades
+[ProductPage] Found product: Rave Party Diamond Dunglasses Music Festival Diamond Shaped Shades
+[WooCommerce] Successfully fetched 26 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: Rave Party Diamond Dunglasses Music Festival Diamond Shaped Shades (halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped)
+[ProductCache] Found product by direct lookup: Rave Party Diamond Dunglasses Music Festival Diamond Shaped Shades
+ GET /product/halloween-glasses-rave-party-eyeglasses-triangle-sunglasses-for-women-retro-shades-rimless-sun-glasses-diamond-shaped 200 in 3733ms

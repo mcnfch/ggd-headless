@@ -1,0 +1,680 @@
+ ⚠ Port 3000 is in use, trying 3001 instead.
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3001
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · turbo
+     · optimizeCss
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'swcMinify' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 1719ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · turbo
+     · optimizeCss
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'swcMinify' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 2.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.9s (1167 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+ ✓ Compiled in 494ms (522 modules)
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: newly-dropped
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 33 },
+  totalProducts: 10,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:03 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '10',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 10 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 32 },
+  totalProducts: 74,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:04 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '74',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 74 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 30 },
+  totalProducts: 78,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:05 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '78',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 31 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:05 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 57 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:05 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 58 },
+  totalProducts: 42,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:06 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '42',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 9428ms
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: newly-dropped
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 33 },
+  totalProducts: 10,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:07 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '10',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 10 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 32 },
+  totalProducts: 74,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:07 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '74',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 74 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 30 },
+  totalProducts: 78,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:09 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '78',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 31 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:09 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 57 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:09 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 58 },
+  totalProducts: 42,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:10 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '42',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 3918ms
+ ○ Compiling /_error ...
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /_error in 1252ms (1373 modules)
+Time 5ms
+ GET /favicon.ico 500 in 1532ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: newly-dropped
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: newly-dropped
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 33 },
+  totalProducts: 10,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:17 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '10',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 10 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 33 },
+  totalProducts: 10,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:17 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '10',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 10 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 32 },
+  totalProducts: 74,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:17 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '74',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 74 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 32 },
+  totalProducts: 74,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:17 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '74',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 74 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 30 },
+  totalProducts: 78,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:18 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '78',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 30 },
+  totalProducts: 78,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:18 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '78',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 31 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:18 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 31 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:18 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 57 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:19 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 57 },
+  totalProducts: 5,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:19 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '5',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 58 },
+  totalProducts: 42,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:19 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '42',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 4031ms
+[WooCommerce] API Response: {
+  params: { per_page: 100, status: 'publish', category: 58 },
+  totalProducts: 42,
+  headers: {
+    server: 'nginx/1.24.0 (Ubuntu)',
+    date: 'Thu, 19 Dec 2024 21:24:19 GMT',
+    'content-type': 'application/json; charset=UTF-8',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'x-robots-tag': 'noindex',
+    link: '<https://woo.groovygallerydesigns.com/wp-json/>; rel="https://api.w.org/"',
+    'x-content-type-options': 'nosniff',
+    'access-control-allow-headers': 'Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+    'x-wp-total': '42',
+    'x-wp-totalpages': '1',
+    'access-control-expose-headers': 'X-WP-Total, X-WP-TotalPages, X-JWT-Refresh',
+    allow: 'GET, POST',
+    expires: 'Wed, 11 Jan 1984 05:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate, max-age=0, no-store, private'
+  }
+}
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 3979ms
+Time 1ms
+ GET /favicon.ico 500 in 6ms

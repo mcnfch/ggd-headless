@@ -1,0 +1,887 @@
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1756ms
+ ✓ Compiled /src/middleware in 156ms (91 modules)
+ ○ Compiling /[slug] ...
+ ✓ Compiled /[slug] in 4.6s (1150 modules)
+ ✓ Compiled in 396ms (518 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Groovy Gear
+  slug: "groovy-gear"
+  id: 34
+  parent: 0
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+[CategoryPage] Rendering category: Festival and Rave Pashminas
+[ProductCache] Getting products for category: festival-rave-pashmina
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Groovy Gear
+  slug: "groovy-gear"
+  id: 34
+  parent: 0
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+[ProductCache] Found category ID: 36 for slug: festival-rave-pashmina
+[CategoryPage] Rendering category: Festival and Rave Pashminas
+[ProductCache] Getting products for category: festival-rave-pashmina
+[ProductCache] Found 0 products for category: festival-rave-pashmina
+ GET /festival-rave-pashmina 200 in 5731ms
+[ProductCache] Found category ID: 36 for slug: festival-rave-pashmina
+[ProductCache] Found 0 products for category: festival-rave-pashmina
+ GET /festival-rave-pashmina 200 in 286ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[CategoryPage] Rendering category: Festival and Rave Pashminas
+[ProductCache] Getting products for category: festival-rave-pashmina
+[ProductCache] Found 0 products in cache for category: festival-rave-pashmina
+ GET /festival-rave-pashmina 200 in 38ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[CategoryPage] Rendering category: Festival Rave Bags
+[ProductCache] Getting products for category: festival-rave-bags
+[ProductCache] Found category ID: 224 for slug: festival-rave-bags
+[ProductCache] Found 7 products for category: festival-rave-bags
+ GET /festival-rave-bags 200 in 343ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ ✓ Compiled / in 392ms (1109 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 26 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET / 200 in 792ms
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 26 categories
+ GET / 200 in 203ms
+ ✓ Compiled /[slug] in 289ms (623 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+[WooCommerce] Successfully fetched 26 categories
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Groovy Gear
+  slug: "groovy-gear"
+  id: 34
+  parent: 0
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Groovy Gear
+  slug: "groovy-gear"
+  id: 34
+  parent: 0
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+[CategoryPage] Rendering category: Festival Rave Swimwear
+[ProductCache] Getting products for category: festival-rave-swimwear
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[ProductCache] Found category ID: 45 for slug: festival-rave-swimwear
+[ProductCache] Found 0 products for category: festival-rave-swimwear
+ GET /festival-rave-swimwear 200 in 1093ms
+[WooCommerce] Fetching categories...
+[CategoryPage] Rendering category: Festival Rave Bags
+[ProductCache] Getting products for category: festival-rave-bags
+[WooCommerce] Successfully fetched 26 categories
+[ProductCache] Found category ID: 224 for slug: festival-rave-bags
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[ProductCache] Found 7 products for category: festival-rave-bags
+ GET /festival-rave-bags 200 in 552ms
+[CategoryPage] Rendering category: Festival Rave Sunglasses
+[ProductCache] Getting products for category: festival-rave-sunglasses
+[ProductCache] Found category ID: 37 for slug: festival-rave-sunglasses
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[ProductCache] Found 21 products for category: festival-rave-sunglasses
+ GET /festival-rave-sunglasses 200 in 714ms
+ ○ Compiling /product/[slug] ...
+ ✓ Compiled /product/[slug] in 641ms (1152 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Trying direct slug lookup: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Trying direct slug lookup: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades (1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades)
+[ProductCache] Found product by direct lookup: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[ProductPage] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades (1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades)
+[ProductCache] Found product by direct lookup: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+ GET /product/1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades 200 in 1651ms
+ ✓ Compiled / in 210ms (644 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 26 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET / 200 in 554ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1318ms (1394 modules)
+ GET /favicon.ico 500 in 1582ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Trying direct slug lookup: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Trying direct slug lookup: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades (1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades)
+[ProductCache] Found product by direct lookup: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[ProductPage] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades (1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades)
+[ProductCache] Found product by direct lookup: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[WooCommerce] Successfully fetched 26 categories
+ GET /product/1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades 200 in 696ms
+[WooCommerce] Fetching categories...
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Found product in cache: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[ProductPage] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Found product in cache: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[WooCommerce] Successfully fetched 26 categories
+ GET /product/1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades 200 in 156ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Found product in cache: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[ProductPage] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Found product in cache: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[WooCommerce] Successfully fetched 26 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET /product/1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades 200 in 380ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Found product in cache: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[ProductPage] Found product: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: 1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades
+[ProductCache] Looking up product with original slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Normalized slug: "1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades"
+[ProductCache] Found product in cache: 1PC Unisex Mirror Rimless Sunglasses Vintage Fashion Letter NO Eyewear Punk Goggles Luxury Sun Glasses Metal Trend UV400 Shades
+[WooCommerce] Successfully fetched 26 categories
+ GET /product/1pc-unisex-mirror-rimless-sunglasses-vintage-fashion-letter-no-eyewear-punk-goggles-luxury-sun-glasses-metal-trend-uv400-shades 200 in 250ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com

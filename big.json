@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Festival Clothing",
+      "description": "Festival and rave clothing for all styles",
+      "parent_id": 0,
+      "is_visible": true,
+      "image_url": "https://example.com/images/festival-clothing.jpg",
+      "custom_url": {
+        "url": "/festival-clothing"
+      },
+      "sort_order": 1,
+      "meta_description": "Find the perfect festival clothing",
+      "meta_keywords": ["festival", "clothing", "rave"]
+    },
+    {
+      "id": 2,
+      "name": "Festival Tops",
+      "description": "Festival and rave tops",
+      "parent_id": 1,
+      "is_visible": true,
+      "image_url": "https://example.com/images/festival-tops.jpg",
+      "custom_url": {
+        "url": "/festival-clothing/tops"
+      },
+      "sort_order": 1,
+      "meta_description": "Festival tops for all occasions",
+      "meta_keywords": ["tops", "festival", "rave"]
+    }
+  ]
+}

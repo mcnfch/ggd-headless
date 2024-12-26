@@ -1,0 +1,5 @@
+WOOCOMMERCE_KEY=ck_9fbfdb952b71771cd624e7e82bd9b26b55c51b22
+WOOCOMMERCE_SECRET=cs_f26a1b4f70789242e28206e83f9af5e815cd533c
+
+WOOCOMMERCE_URI=https://woo.festivalravegear.com/
+WOOCOMMERCE_API=https://woo.festivalravegear.com/wp-json/wc/v3/

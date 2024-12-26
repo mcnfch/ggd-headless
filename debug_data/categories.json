@@ -1,0 +1,1021 @@
+[
+    {
+      "id": 32,
+      "name": "Accessories",
+      "slug": "accessories",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 180,
+        "date_created": "2024-12-06T05:17:33",
+        "date_created_gmt": "2024-12-06T05:17:33",
+        "date_modified": "2024-12-06T05:17:33",
+        "date_modified_gmt": "2024-12-06T05:17:33",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/accessories__73343.jpeg",
+        "name": "accessories__73343.jpeg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 1,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/32",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "name": "Festival Rave Blankets",
+      "slug": "festival-rave-blankets",
+      "parent": 34,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 188,
+        "date_created": "2024-12-06T05:17:41",
+        "date_created_gmt": "2024-12-06T05:17:41",
+        "date_modified": "2024-12-06T05:17:41",
+        "date_modified_gmt": "2024-12-06T05:17:41",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/1723660186-3-w0fnqjrmox__570382028129_category.jpg",
+        "name": "1723660186-3-w0fnqjrmox__570382028129_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/40",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/34"
+          }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "name": "Festival Rave Bottoms",
+      "slug": "festival-rave-bottoms-men",
+      "parent": 31,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 197,
+        "date_created": "2024-12-06T05:17:49",
+        "date_created_gmt": "2024-12-06T05:17:49",
+        "date_modified": "2024-12-06T05:17:49",
+        "date_modified_gmt": "2024-12-06T05:17:49",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/1723749593-1-twqiv37vyf__79782_category.jpg",
+        "name": "1723749593-1-twqiv37vyf__79782_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/49",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/31"
+          }
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "name": "Festival Rave Bottoms",
+      "slug": "festival-rave-bottoms",
+      "parent": 30,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 190,
+        "date_created": "2024-12-06T05:17:43",
+        "date_created_gmt": "2024-12-06T05:17:43",
+        "date_modified": "2024-12-06T05:17:43",
+        "date_modified_gmt": "2024-12-06T05:17:43",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/stained20glass20womens20leggings__65212.jpg",
+        "name": "stained20glass20womens20leggings__65212.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/42",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/30"
+          }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "name": "Festival Rave Dresses",
+      "slug": "festival-rave-dresses",
+      "parent": 30,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 191,
+        "date_created": "2024-12-06T05:17:44",
+        "date_created_gmt": "2024-12-06T05:17:44",
+        "date_modified": "2024-12-06T05:17:44",
+        "date_modified_gmt": "2024-12-06T05:17:44",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/tshirt20dress__23290.jpg",
+        "name": "tshirt20dress__23290.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/43",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/30"
+          }
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "name": "Festival Rave Hats",
+      "slug": "festival-rave-hats",
+      "parent": 32,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 183,
+        "date_created": "2024-12-06T05:17:35",
+        "date_created_gmt": "2024-12-06T05:17:35",
+        "date_modified": "2024-12-06T05:17:35",
+        "date_modified_gmt": "2024-12-06T05:17:35",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/hat2028129__02334.jpeg",
+        "name": "hat2028129__02334.jpeg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/35",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/32"
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "name": "Festival Rave Hoodie Blankets",
+      "slug": "festival-rave-hoodie-blankets",
+      "parent": 34,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 187,
+        "date_created": "2024-12-06T05:17:40",
+        "date_created_gmt": "2024-12-06T05:17:40",
+        "date_modified": "2024-12-06T05:17:40",
+        "date_modified_gmt": "2024-12-06T05:17:40",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/13715138767699098330_1200__124932028129_category.jpg",
+        "name": "13715138767699098330_1200__124932028129_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 13,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/39",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/34"
+          }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "name": "Festival Rave Outerwear",
+      "slug": "festival-rave-outerwear-men",
+      "parent": 31,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 198,
+        "date_created": "2024-12-06T05:17:49",
+        "date_created_gmt": "2024-12-06T05:17:49",
+        "date_modified": "2024-12-06T05:17:49",
+        "date_modified_gmt": "2024-12-06T05:17:49",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/15600332411793508210_1200__746012028129_category.jpg",
+        "name": "15600332411793508210_1200__746012028129_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/50",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/31"
+          }
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "name": "Festival Rave Outerwear",
+      "slug": "festival-rave-outerwear",
+      "parent": 30,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 192,
+        "date_created": "2024-12-06T05:17:45",
+        "date_created_gmt": "2024-12-06T05:17:45",
+        "date_modified": "2024-12-06T05:17:45",
+        "date_modified_gmt": "2024-12-06T05:17:45",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/4834396395144521416_1200__205752028129_category.jpg",
+        "name": "4834396395144521416_1200__205752028129_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/44",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/30"
+          }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "name": "Festival Rave Outfits",
+      "slug": "festival-rave-outfits",
+      "parent": 30,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 199,
+        "date_created": "2024-12-06T05:17:50",
+        "date_created_gmt": "2024-12-06T05:17:50",
+        "date_modified": "2024-12-06T05:17:50",
+        "date_modified_gmt": "2024-12-06T05:17:50",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/bodysuit__16021.jpg",
+        "name": "bodysuit__16021.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/51",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/30"
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "name": "Festival Rave Pashmina",
+      "slug": "festival-rave-pashmina",
+      "parent": 32,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 184,
+        "date_created": "2024-12-06T05:17:37",
+        "date_created_gmt": "2024-12-06T05:17:37",
+        "date_modified": "2024-12-06T05:17:37",
+        "date_modified_gmt": "2024-12-06T05:17:37",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/trippy20pash__27580.jpg",
+        "name": "trippy20pash__27580.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/36",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/32"
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "name": "Festival Rave Sunglasses",
+      "slug": "festival-rave-sunglasses",
+      "parent": 32,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 185,
+        "date_created": "2024-12-06T05:17:37",
+        "date_created_gmt": "2024-12-06T05:17:37",
+        "date_modified": "2024-12-06T05:17:37",
+        "date_modified_gmt": "2024-12-06T05:17:37",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/pink20y2k20sunnies__32070.jpg",
+        "name": "pink20y2k20sunnies__32070.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 1,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/37",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/32"
+          }
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "name": "Festival Rave Swimwear",
+      "slug": "festival-rave-swimwear",
+      "parent": 30,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 193,
+        "date_created": "2024-12-06T05:17:46",
+        "date_created_gmt": "2024-12-06T05:17:46",
+        "date_modified": "2024-12-06T05:17:46",
+        "date_modified_gmt": "2024-12-06T05:17:46",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/1723754177-1-nvh0g2cptn__79087_category.jpg",
+        "name": "1723754177-1-nvh0g2cptn__79087_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/45",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/30"
+          }
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "name": "Festival Rave Tapestries",
+      "slug": "festival-rave-tapestries",
+      "parent": 34,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 186,
+        "date_created": "2024-12-06T05:17:38",
+        "date_created_gmt": "2024-12-06T05:17:38",
+        "date_modified": "2024-12-06T05:17:38",
+        "date_modified_gmt": "2024-12-06T05:17:38",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/1723606011-5-ux5v2s271q__349092028129_category.jpg",
+        "name": "1723606011-5-ux5v2s271q__349092028129_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/38",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/34"
+          }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "name": "Festival Rave Tops",
+      "slug": "festival-rave-tops",
+      "parent": 30,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 189,
+        "date_created": "2024-12-06T05:17:42",
+        "date_created_gmt": "2024-12-06T05:17:42",
+        "date_modified": "2024-12-06T05:17:42",
+        "date_modified_gmt": "2024-12-06T05:17:42",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/psychedelic20blutterfly__41855.jpg",
+        "name": "psychedelic20blutterfly__41855.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 1,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/41",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/30"
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "name": "Festival Rave Tops",
+      "slug": "festival-rave-tops-men",
+      "parent": 31,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 196,
+        "date_created": "2024-12-06T05:17:48",
+        "date_created_gmt": "2024-12-06T05:17:48",
+        "date_modified": "2024-12-06T05:17:48",
+        "date_modified_gmt": "2024-12-06T05:17:48",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/1723750918-2-buxd3qg1ph__875692028129_category.jpg",
+        "name": "1723750918-2-buxd3qg1ph__875692028129_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 1,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/48",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/31"
+          }
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "name": "Groovy Gear",
+      "slug": "groovy-gear",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 182,
+        "date_created": "2024-12-06T05:17:34",
+        "date_created_gmt": "2024-12-06T05:17:34",
+        "date_modified": "2024-12-06T05:17:34",
+        "date_modified_gmt": "2024-12-06T05:17:34",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/groovy20gear__96811.jpeg",
+        "name": "groovy20gear__96811.jpeg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 13,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/34",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "Men",
+      "slug": "men",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 179,
+        "date_created": "2024-12-06T05:17:33",
+        "date_created_gmt": "2024-12-06T05:17:33",
+        "date_modified": "2024-12-06T05:17:33",
+        "date_modified_gmt": "2024-12-06T05:17:33",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/men__05777.jpeg",
+        "name": "men__05777.jpeg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 3,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/31",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "name": "Men's Festival Rave Footwear",
+      "slug": "mens-festival-rave-footwear",
+      "parent": 31,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 195,
+        "date_created": "2024-12-06T05:17:47",
+        "date_created_gmt": "2024-12-06T05:17:47",
+        "date_modified": "2024-12-06T05:17:47",
+        "date_modified_gmt": "2024-12-06T05:17:47",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/12562234381298248934_1200__612232028129_category.jpg",
+        "name": "12562234381298248934_1200__612232028129_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 2,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/47",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/31"
+          }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "name": "New Arrivals",
+      "slug": "new-arrivals",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 181,
+        "date_created": "2024-12-06T05:17:34",
+        "date_created_gmt": "2024-12-06T05:17:34",
+        "date_modified": "2024-12-06T05:17:34",
+        "date_modified_gmt": "2024-12-06T05:17:34",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/new20arrivals20__47871.jpeg",
+        "name": "new20arrivals20__47871.jpeg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/33",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Uncategorized",
+      "slug": "uncategorized",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 20,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/15",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "name": "Women",
+      "slug": "women",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 178,
+        "date_created": "2024-12-06T05:17:32",
+        "date_created_gmt": "2024-12-06T05:17:32",
+        "date_modified": "2024-12-06T05:17:32",
+        "date_modified_gmt": "2024-12-06T05:17:32",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/women__85829.jpeg",
+        "name": "women__85829.jpeg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 2,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/30",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "name": "Women's Festival Rave Footwear",
+      "slug": "womens-festival-rave-footwear",
+      "parent": 30,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 194,
+        "date_created": "2024-12-06T05:17:46",
+        "date_created_gmt": "2024-12-06T05:17:46",
+        "date_modified": "2024-12-06T05:17:46",
+        "date_modified_gmt": "2024-12-06T05:17:46",
+        "src": "https://woo.festivalravegear.com/wp-content/uploads/2024/12/9470443717831808106_1200__788752028129_category.jpg",
+        "name": "9470443717831808106_1200__788752028129_category.jpg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/46",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://woo.festivalravegear.com/wp-json/wc/v3/products/categories/30"
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,139 @@
+/* Import WordPress block styles but scope them to our blog content */
+.wp-content {
+  /* Base styles */
+  @apply max-w-none text-base md:text-lg;
+}
+
+/* Typography */
+.wp-content h1 {
+  @apply text-4xl font-bold mb-6;
+}
+
+.wp-content h2 {
+  @apply text-3xl font-bold mb-4 mt-8;
+}
+
+.wp-content h3 {
+  @apply text-2xl font-bold mb-3 mt-6;
+}
+
+.wp-content p {
+  @apply mb-4 leading-relaxed;
+}
+
+.wp-content strong,
+.wp-content b {
+  @apply font-bold !important;
+}
+
+.wp-content em,
+.wp-content i {
+  @apply italic;
+}
+
+/* Lists */
+.wp-content ul:not(.wp-block-list) {
+  @apply list-disc pl-6 mb-4 space-y-2;
+}
+
+.wp-content ol:not(.wp-block-list) {
+  @apply list-decimal pl-6 mb-4 space-y-2;
+}
+
+/* Import WordPress block styles */
+.wp-content .wp-block-list {
+  box-sizing: border-box;
+  margin-bottom: 1.5em;
+  padding-left: 2em;
+}
+
+.wp-content .wp-block-list li {
+  margin: 0;
+  padding: 0.25em 0;
+}
+
+.wp-content ul.wp-block-list {
+  list-style-type: disc;
+}
+
+.wp-content ol.wp-block-list {
+  list-style-type: decimal;
+}
+
+/* Images */
+.wp-content .wp-block-image {
+  margin: 2em 0;
+}
+
+.wp-content .wp-block-image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.wp-content .wp-block-image figcaption {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #555;
+}
+
+/* Links */
+.wp-content a {
+  @apply text-purple-600 hover:text-purple-700 underline;
+}
+
+/* Block quotes */
+.wp-content blockquote {
+  @apply border-l-4 border-purple-600 pl-4 py-2 my-4 italic;
+}
+
+/* Tables */
+.wp-content table {
+  @apply w-full border-collapse mb-4;
+}
+
+.wp-content table th {
+  @apply bg-gray-100 border px-4 py-2 text-left font-bold;
+}
+
+.wp-content table td {
+  @apply border px-4 py-2;
+}
+
+/* Code blocks */
+.wp-content pre {
+  @apply bg-gray-100 p-4 rounded-lg mb-4 overflow-x-auto;
+}
+
+.wp-content code {
+  @apply bg-gray-100 px-1 py-0.5 rounded;
+}
+
+/* Spacing fixes */
+.wp-content br + br {
+  @apply hidden;
+}
+
+.wp-content p:empty {
+  @apply hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .wp-content {
+    @apply text-base;
+  }
+  
+  .wp-content h1 {
+    @apply text-3xl;
+  }
+  
+  .wp-content h2 {
+    @apply text-2xl;
+  }
+  
+  .wp-content h3 {
+    @apply text-xl;
+  }
+}

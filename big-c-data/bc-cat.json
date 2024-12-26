@@ -1,0 +1,592 @@
+{
+  "data": [
+    {
+      "id": 18,
+      "parent_id": 0,
+      "name": "Women",
+      "description": "",
+      "views": 0,
+      "sort_order": 3,
+      "page_title": "",
+      "search_keywords": "festival fashion, women\u2019s dresses, retro style clothing, vibrant outfits, bohemian apparel, self-expression fashion, unique dresses, music festival outfits, colorful women\u2019s wear, Groovy Gallery Designs",
+      "meta_keywords": [],
+      "meta_description": "Discover vibrant festival fashion at Groovy Gallery Designs! Express your individuality with our stunning collection for women, featuring the Retro Bloom Shift Dress and more. Join the celebration!",
+      "layout_file": "category_with_facets.html",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/women/",
+        "is_customized": false
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/o/women__85829.jpeg"
+    },
+    {
+      "id": 19,
+      "parent_id": 0,
+      "name": "Men",
+      "description": "",
+      "views": 0,
+      "sort_order": 4,
+      "page_title": "",
+      "search_keywords": "men's festival gear, rave clothing, stylish festival outfits, Honeycomb Mosaic Jersey, festival attire for men, colorful rave wear, expressive men's clothing, inclusive festival fashion, unique festival outfits, festival essentials for men",
+      "meta_keywords": [],
+      "meta_description": "Unleash your festival spirit with Groovy Gallery Designs' Men's Festival Gear. Stand out, connect with others, and embrace vibrant styles that celebrate individuality and unforgettable experiences.",
+      "layout_file": "category_with_facets.html",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/men/",
+        "is_customized": false
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/v/men__05777.jpeg"
+    },
+    {
+      "id": 21,
+      "parent_id": 0,
+      "name": "Accessories",
+      "description": "",
+      "views": 0,
+      "sort_order": 5,
+      "page_title": "",
+      "search_keywords": "sunglasses for festivals, butterfly bling sunglasses, heart-shaped sunglasses, festival accessories, rave fashion accessories, funky sunglasses, colorful festival gear, summer event eyewear, unique sunglasses styles, groovy festival looks",
+      "meta_keywords": [],
+      "meta_description": "Elevate your festival style with Groovy Gallery Designs' vibrant accessories! Discover unique sunglasses and gear that celebrate individuality and good vibes. Join our festival tribe!",
+      "layout_file": "category_with_facets.html",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/accessories/",
+        "is_customized": false
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/w/accessories__73343.jpeg"
+    },
+    {
+      "id": 22,
+      "parent_id": 0,
+      "name": "Featured Collections",
+      "description": "",
+      "views": 0,
+      "sort_order": 7,
+      "page_title": "",
+      "search_keywords": "festival gear, vibrant tapestries, cozy blankets, festival style, self-expression, festival collections, neon lights, unique designs, groovy atmosphere, community connection",
+      "meta_keywords": [],
+      "meta_description": "Explore Groovy Gallery Designs' Featured Collections, where vibrant tapestries and cozy blankets elevate your festival experience. Celebrate individuality and express your unique style today!",
+      "layout_file": "category_with_facets.html",
+      "is_visible": false,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/featured-collections/",
+        "is_customized": false
+      },
+      "image_url": ""
+    },
+    {
+      "id": 23,
+      "parent_id": 0,
+      "name": "New Arrivals",
+      "description": "",
+      "views": 0,
+      "sort_order": 2,
+      "page_title": "New Arrivals",
+      "search_keywords": "Neon Bucket Hat, Psychedelic Hawaiian Shirt, Festival Clothing, Retro Shift Dress, Trippy Tapestry, Groovy Dresses, Rave Accessories, Colorful Festival Outfits, Unique Bucket Hats, Women's Festival Footwear",
+      "meta_keywords": [
+        "new arrivals",
+        "latest products",
+        "trending items",
+        "new in store"
+      ],
+      "meta_description": "Discover vibrant styles and unique designs in Groovy Gallery's New Arrivals! Elevate your festival vibe with colorful hats, dresses, and cozy blankets. Join the celebration!",
+      "layout_file": "category_with_facets.html",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/new-arrivals/",
+        "is_customized": false
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/o/new%20arrivals%20__47871.jpeg"
+    },
+    {
+      "id": 27,
+      "parent_id": 21,
+      "name": "Festival Rave Hats",
+      "description": "",
+      "views": 0,
+      "sort_order": 3,
+      "page_title": "",
+      "search_keywords": "bucket hats, festival hats, rave accessories, psychedelic bucket hats, colorful hats, bold fashion accessories, unique headwear, vibrant hats, artistic bucket hats, trendy festival wear",
+      "meta_keywords": [],
+      "meta_description": "Elevate your festival experience with Groovy Gallery Designs' bold bucket hats. Embrace artistic flair and make a statement with vibrant styles that celebrate self-expression!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/accessories/festival-rave-hats/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/j/hat%20%281%29__02334.jpeg"
+    },
+    {
+      "id": 28,
+      "parent_id": 21,
+      "name": "Festival Rave Pashmina",
+      "description": "",
+      "views": 0,
+      "sort_order": 1,
+      "page_title": "",
+      "search_keywords": "Pashmina scarf, psychedelic shawl, winter wrap, tassel scarf, luxury cashmere, festival accessories, colorful pashmina, women\u2019s shawl, warm wraps, ethnic style poncho",
+      "meta_keywords": [],
+      "meta_description": "Explore Groovy Gallery Designs' vibrant Pashmina collection, where cozy comfort meets unique style. Wrap yourself in creativity, warmth, and unforgettable memories for every occasion!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/accessories/festival-rave-pashmina/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/g/trippy%20pash__27580.jpg"
+    },
+    {
+      "id": 29,
+      "parent_id": 21,
+      "name": "Festival Rave Sunglasses",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "Sunglasses - Stylish Eyewear for Every Occasion",
+      "search_keywords": "sunglasses, UV protection, polarized sunglasses, aviator sunglasses, oversized sunglasses, designer eyewear, men's sunglasses, women's sunglasses, trendy sunglasses, unisex sunglasses",
+      "meta_keywords": [
+        "sunglasses",
+        "UV protection sunglasses",
+        "stylish eyewear",
+        "polarized sunglasses",
+        "aviator sunglasses",
+        "oversized sunglasses",
+        "designer sunglasses",
+        "unisex sunglasses",
+        "men's sunglasses",
+        "women's sunglasses"
+      ],
+      "meta_description": "Discover the latest trends in sunglasses at Groovy Gallery Designs. From playful heart shapes to stylish vintage designs, find your perfect pair today!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/accessories/festival-rave-sunglasses/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/r/pink%20y2k%20sunnies__32070.jpg"
+    },
+    {
+      "id": 30,
+      "parent_id": 21,
+      "name": "Festival Rave Bags & Backpacks",
+      "description": "",
+      "views": 0,
+      "sort_order": 2,
+      "page_title": "",
+      "search_keywords": "festival bags, stylish backpacks, vibrant accessories, dance event bags, colorful rucksack, unique festival gear, trendy bags, expressive backpacks, music festival essentials, rave accessories",
+      "meta_keywords": [],
+      "meta_description": "Discover Groovy Gallery Designs' vibrant bags and backpacks, perfect for festivals and adventures. Embrace your individuality, showcase your style, and dance with essentials in tow!",
+      "layout_file": "",
+      "is_visible": false,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/accessories/festival-rave-bags-backpacks/",
+        "is_customized": true
+      },
+      "image_url": ""
+    },
+    {
+      "id": 31,
+      "parent_id": 0,
+      "name": "Groovy Gear",
+      "description": "",
+      "views": 0,
+      "sort_order": 6,
+      "page_title": "",
+      "search_keywords": "tapestries, festival gear, cozy blankets, psychedelic decor, vibrant wall art, festival necessities, bohemian style, groovy apparel, colorful home decor, unique festival accessories",
+      "meta_keywords": [],
+      "meta_description": "Elevate your festival experience with Groovy Gear! Discover vibrant tapestries and cozy blankets that embody joy, freedom, and unforgettable memories. Join the tribe today!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/groovy-gear/",
+        "is_customized": false
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/s/groovy%20gear__96811.jpeg"
+    },
+    {
+      "id": 32,
+      "parent_id": 31,
+      "name": "Festival Rave Tapestries",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "tapestries, psychedelic tapestries, festival wall art, glow-in-the-dark tapestry, cosmic sunset tapestry, enchanted forest tapestry, psychedelic mushroom tapestry, chakra stained glass tapestry, galaxy tapestry, rave decor",
+      "meta_keywords": [],
+      "meta_description": "Elevate your space with Groovy Gallery Designs' vibrant tapestries! Ignite your festival vibes and celebrate individuality through stunning, immersive designs perfect for any setting.",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/groovy-gear/festival-rave-tapestries/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/w/1723606011-5-ux5v2s271q__34909%20%281%29_category.jpg"
+    },
+    {
+      "id": 34,
+      "parent_id": 31,
+      "name": "Festival Rave Hoodie Blankets",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "hoodie blankets, festival blankets, vibrant hoodie cloaks, cozy festival wear, unique hoodie designs, psychedelic blankets, colorful hoodie accessories, comfortable festival clothing, eye-catching hooded blankets, statement festival gear",
+      "meta_keywords": [],
+      "meta_description": "Wrap yourself in vibrant comfort with Groovy Gallery Designs' hoodie blankets\u2014perfect for festivals, celebrating individuality, and creating unforgettable memories with friends.",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/groovy-gear/festival-rave-hoodie-blankets/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/t/13715138767699098330_1200__12493%20%281%29_category.jpg"
+    },
+    {
+      "id": 35,
+      "parent_id": 31,
+      "name": "Festival Rave Blankets",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "blankets, festival blankets, psychedelic blankets, flannel blankets, tie-dye blankets, vibrant blankets, cozy blankets, unique design blankets, colorful outdoor blankets, festival gear",
+      "meta_keywords": [],
+      "meta_description": "Explore Groovy Gallery Designs' vibrant Blankets collection, where playful patterns and cozy comfort enhance your festival experience. Embrace individuality and create unforgettable memories under the stars!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/groovy-gear/festival-rave-blankets/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/l/1723660186-3-w0fnqjrmox__57038%20%281%29_category.jpg"
+    },
+    {
+      "id": 36,
+      "parent_id": 18,
+      "name": "Festival Rave Tops",
+      "description": "",
+      "views": 0,
+      "sort_order": 4,
+      "page_title": "",
+      "search_keywords": "festival tops, vibrant hoodies, psychedelic shirts, colorful crop tops, halter tank tops, rave clothing, summer apparel, unique designs, women\u2019s festival wear, bohemian styles",
+      "meta_keywords": [],
+      "meta_description": "Discover Groovy Gallery Designs' electrifying tops collection! Stand out at festivals with vibrant styles that celebrate individuality, comfort, and creativity. Ignite your unique flair today!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/women/festival-rave-tops/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/g/psychedelic%20blutterfly__41855.jpg"
+    },
+    {
+      "id": 37,
+      "parent_id": 18,
+      "name": "Festival Rave Bottoms",
+      "description": "",
+      "views": 0,
+      "sort_order": 3,
+      "page_title": "",
+      "search_keywords": "festival bottoms, psychedelic shorts, board shorts, tie-dye leggings, sequin skirts, floral leggings, geometric designs, boho shorts, rave wear, colorful festival clothing",
+      "meta_keywords": [],
+      "meta_description": "Explore Groovy Gallery Designs\u2019 vibrant festival bottoms collection! Embrace individuality and express your unique style with eye-catching designs, perfect for unforgettable adventures. Dance, celebrate, and shine!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/women/festival-rave-bottoms/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/y/stained%20glass%20womens%20leggings__65212.jpg"
+    },
+    {
+      "id": 38,
+      "parent_id": 18,
+      "name": "Festival Rave Dresses",
+      "description": "",
+      "views": 0,
+      "sort_order": 5,
+      "page_title": "",
+      "search_keywords": "festival dresses, retro dresses, vibrant t-shirt dresses, psychedelic patterns, unique festival styles, bohemian clothing, bold print dresses, colorful shift dresses, 70s vibe fashion, expression through clothing",
+      "meta_keywords": [],
+      "meta_description": "Discover vibrant festival dresses at Groovy Gallery Designs! Embrace your individuality with bold patterns and retro styles that radiate joy and nostalgia. Express yourself today!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/women/festival-rave-dresses/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/c/tshirt%20dress__23290.jpg"
+    },
+    {
+      "id": 39,
+      "parent_id": 18,
+      "name": "Festival Rave Outerwear",
+      "description": "",
+      "views": 0,
+      "sort_order": 2,
+      "page_title": "",
+      "search_keywords": "outerwear, festival jackets, unisex windbreaker, puffer jackets, psychedelic bomber jacket, rave clothing, colorful outerwear, statement jackets, fashion for festivals, trendy hoodies",
+      "meta_keywords": [],
+      "meta_description": "Elevate your festival experience with Groovy Gallery Designs' Outerwear collection. Discover vibrant jackets that celebrate individuality, comfort, and creativity for memorable moments under the stars.",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/festival-rave-outerwear/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/r/4834396395144521416_1200__20575%20%281%29_category.jpg"
+    },
+    {
+      "id": 40,
+      "parent_id": 18,
+      "name": "Festival Rave Swimwear",
+      "description": "",
+      "views": 0,
+      "sort_order": 1,
+      "page_title": "",
+      "search_keywords": "swimwear, bikinis, high-neck bikini sets, boho-chic swimwear, colorful swimwear, festival swimwear, unique bikini designs, vibrant patterns, beachwear, summer fashion",
+      "meta_keywords": [],
+      "meta_description": "Discover vibrant swimwear at Groovy Gallery Designs! Embrace boho-chic styles and celebrate your individuality with our unique collection that makes waves this summer!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/women/festival-rave-swimwear/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/n/1723754177-1-nvh0g2cptn__79087_category.jpg"
+    },
+    {
+      "id": 41,
+      "parent_id": 22,
+      "name": "Seasonal Collections",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "seasonal decor, festive tapestries, cozy blankets, vibrant celebrations, community spirit, colorful home accessories, unique style, outdoor gatherings, cozy nights in, individual expression",
+      "meta_keywords": [],
+      "meta_description": "Explore Groovy Gallery Designs' Seasonal Collections! Celebrate life's vibrant moments with curated tapestries and cozy blankets that elevate every occasion. Embrace warmth, color, and creativity today!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/featured-collections/seasonal-collections/",
+        "is_customized": false
+      },
+      "image_url": ""
+    },
+    {
+      "id": 42,
+      "parent_id": 22,
+      "name": "Collaborations",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "collaborative art, festival tapestries, unique blankets, vibrant festival gear, community artistry, creative expressions, festival fashion, cozy festival blankets, colorful designs, shared experiences",
+      "meta_keywords": [],
+      "meta_description": "Elevate your festival experience with our vibrant Collaborations collection! Discover unique pieces that celebrate creativity, community, and individuality while igniting lasting memories under the stars.",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/featured-collections/collaborations/",
+        "is_customized": false
+      },
+      "image_url": ""
+    },
+    {
+      "id": 43,
+      "parent_id": 22,
+      "name": "Sets & Matching Outfits",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "matching outfits, festival fashion, two-piece sets, co-ords, vibrant patterns, bold colors, festival wear, self-expression clothing, trendy outfits, festival group outfits",
+      "meta_keywords": [],
+      "meta_description": "Discover vibrant Sets & Matching Outfits at Groovy Gallery Designs! Elevate your festival style, express individuality, and create unforgettable memories with eye-catching ensembles. Join the celebration!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/featured-collections/sets-matching-outfits/",
+        "is_customized": false
+      },
+      "image_url": ""
+    },
+    {
+      "id": 44,
+      "parent_id": 18,
+      "name": "Women's Festival Rave Footwear",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "women's canvas boots, festival footwear, psychedelic boots, bohemian style shoes, colorful women's footwear, unique women's boots, trendy canvas shoes, floral print boots, chic festival fashion, vibrant boot designs",
+      "meta_keywords": [],
+      "meta_description": "Discover Groovy Gallery Designs\u2019 vibrant women's footwear collection! Elevate your festival style with bold canvas boots, celebrating individuality and creativity in every step. Embrace your groove!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/women/womens-festival-rave-footwear/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/p/9470443717831808106_1200__78875%20%281%29_category.jpg"
+    },
+    {
+      "id": 45,
+      "parent_id": 19,
+      "name": "Men's Festival Rave Footwear",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "men's footwear, festival boots, canvas boots, psychedelic shoes, floral print footwear, boho chic boots, colorful men's shoes, unique style boots, vibrant canvas footwear, creative festival shoes",
+      "meta_keywords": [],
+      "meta_description": "Discover vibrant Men's Footwear at Groovy Gallery Designs! Elevate your festival style with bold, psychedelic boots that celebrate individuality and creativity. Step into the spotlight!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/men/mens-festival-rave-footwear/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/o/12562234381298248934_1200__61223%20%281%29_category.jpg"
+    },
+    {
+      "id": 46,
+      "parent_id": 19,
+      "name": "Festival Rave Tops",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "tops, festival clothing, vibrant attire, psychedelic shirts, rave hoodies, Hawaiian shirts, self-expression clothing, bold patterns, colorful festival wear, unique festival styles",
+      "meta_keywords": [],
+      "meta_description": "\"Explore Groovy Gallery Designs' vibrant tops collection! Elevate your festival style with unique patterns and colors, perfect for self-expression and unforgettable memories. Stand out today!\"",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/men/festival-rave-tops/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/h/1723750918-2-buxd3qg1ph__87569%20%281%29_category.jpg"
+    },
+    {
+      "id": 47,
+      "parent_id": 19,
+      "name": "Festival Rave Bottoms",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "festival shorts, board shorts, psychedelic shorts, rave fashion, sacred geometry bottoms, colorful festival bottoms, rainbow board shorts, unique festival wear, vibrant shorts, groovy festival outfits",
+      "meta_keywords": [],
+      "meta_description": "Discover vibrant festival bottoms at Groovy Gallery Designs! Celebrate self-expression and style with our unique shorts, perfect for unforgettable moments under the stars.",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/men/festival-rave-bottoms/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/n/1723749593-1-twqiv37vyf__79782_category.jpg"
+    },
+    {
+      "id": 48,
+      "parent_id": 19,
+      "name": "Festival Rave Outerwear",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "outerwear festival jackets, unisex windbreaker, vibrant puffer jackets, psychedelic bomber jacket, festival fashion, rave outerwear, colorful windbreakers, men's puffer jackets, artistic festival clothing, groovy outerwear collection",
+      "meta_keywords": [],
+      "meta_description": "Elevate your festival experience with Groovy Gallery Designs' Outerwear collection. Vibrant jackets that celebrate individuality, warmth, and positive vibes await you! Embrace the adventure!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/men/festival-rave-outerwear/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/k/15600332411793508210_1200__74601%20%281%29_category.jpg"
+    },
+    {
+      "id": 49,
+      "parent_id": 18,
+      "name": "Festival Rave Outfits",
+      "description": "",
+      "views": 0,
+      "sort_order": 0,
+      "page_title": "",
+      "search_keywords": "festival outfits, rave clothing, women's bodysuits, cyberpunk jumpsuits, Halloween party costumes, colorful print jumpsuits, unique festival attire, reflective rave gear, expressive cosplay suits, stylish festival wear",
+      "meta_keywords": [],
+      "meta_description": "Discover vibrant festival outfits at Groovy Gallery Designs! Unleash your unique style with bold, creative ensembles that celebrate individuality and connection. Dance, express, and shine!",
+      "layout_file": "",
+      "is_visible": true,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/women/fesival-rave-outfits/",
+        "is_customized": true
+      },
+      "image_url": "https://cdn11.bigcommerce.com/s-sz0eoyttoh/product_images/j/bodysuit__16021.jpg"
+    },
+    {
+      "id": 61,
+      "parent_id": 0,
+      "name": "Ship-Safely Shipping Protection",
+      "description": "Ship-Safely Shipping Protection",
+      "views": 0,
+      "sort_order": 1,
+      "page_title": "",
+      "search_keywords": "",
+      "meta_keywords": [],
+      "meta_description": "",
+      "layout_file": "",
+      "is_visible": false,
+      "default_product_sort": "use_store_settings",
+      "custom_url": {
+        "url": "/ship-safely-shipping-protection/",
+        "is_customized": false
+      },
+      "image_url": ""
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 28,
+      "count": 28,
+      "per_page": 50,
+      "current_page": 1,
+      "total_pages": 1,
+      "links": {
+        "current": "?limit=50&page=1"
+      }
+    }
+  }
+}

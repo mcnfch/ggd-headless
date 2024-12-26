@@ -1,0 +1,28 @@
+Root Level (parent: 0)
+├── Accessories (ID: 32, slug: 'accessories')
+│   ├── Festival Rave Hats (ID: 35, slug: 'festival-rave-hats')
+│   ├── Festival Rave Pashmina (ID: 36, slug: 'festival-rave-pashmina')
+│   └── Festival Rave Sunglasses (ID: 37, slug: 'festival-rave-sunglasses')
+│
+├── Men (ID: 31, slug: 'men')
+│   ├── Festival Rave Bottoms (ID: 49, slug: 'festival-rave-bottoms-men')
+│   ├── Festival Rave Outerwear (ID: 50, slug: 'festival-rave-outerwear-men')
+│   ├── Festival Rave Tops (ID: 48, slug: 'festival-rave-tops-men')
+│   └── Men's Festival Rave Footwear (ID: 47, slug: 'mens-festival-rave-footwear')
+│
+├── Women (ID: 30, slug: 'women')
+│   ├── Festival Rave Bottoms (ID: 42, slug: 'festival-rave-bottoms')
+│   ├── Festival Rave Dresses (ID: 43, slug: 'festival-rave-dresses')
+│   ├── Festival Rave Outerwear (ID: 44, slug: 'festival-rave-outerwear')
+│   ├── Festival Rave Outfits (ID: 51, slug: 'festival-rave-outfits')
+│   ├── Festival Rave Swimwear (ID: 45, slug: 'festival-rave-swimwear')
+│   ├── Festival Rave Tops (ID: 41, slug: 'festival-rave-tops')
+│   └── Women's Festival Rave Footwear (ID: 46, slug: 'womens-festival-rave-footwear')
+│
+├── Groovy Gear (ID: 34, slug: 'groovy-gear')
+│   ├── Festival Rave Blankets (ID: 40, slug: 'festival-rave-blankets')
+│   ├── Festival Rave Hoodie Blankets (ID: 39, slug: 'festival-rave-hoodie-blankets')
+│   └── Festival Rave Tapestries (ID: 38, slug: 'festival-rave-tapestries')
+│
+├── New Arrivals (ID: 33, slug: 'new-arrivals')
+└── Uncategorized (ID: 15, slug: 'uncategorized')

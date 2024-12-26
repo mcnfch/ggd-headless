@@ -1,0 +1,518 @@
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1933ms
+ ✓ Compiled /src/middleware in 485ms (91 modules)
+ ○ Compiling /product/[slug] ...
+ ✓ Compiled /product/[slug] in 4.7s (1162 modules)
+ ✓ Compiled in 442ms (522 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit
+[ProductCache] Looking up product with original slug: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[ProductCache] Normalized slug: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[ProductCache] Trying direct slug lookup: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit
+[ProductCache] Looking up product with original slug: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[ProductCache] Normalized slug: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[ProductCache] Trying direct slug lookup: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: Women Red Phantom Mesh Jumpsuit Wood Shell Mesh Bodysuit Halloween Zentai Suit Outdoor Adventure Theme Party Catsuit Rave Outfit (women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit)
+[ProductCache] Found product by direct lookup: Women Red Phantom Mesh Jumpsuit Wood Shell Mesh Bodysuit Halloween Zentai Suit Outdoor Adventure Theme Party Catsuit Rave Outfit
+[ProductPage] Found product: Women Red Phantom Mesh Jumpsuit Wood Shell Mesh Bodysuit Halloween Zentai Suit Outdoor Adventure Theme Party Catsuit Rave Outfit
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: Women Red Phantom Mesh Jumpsuit Wood Shell Mesh Bodysuit Halloween Zentai Suit Outdoor Adventure Theme Party Catsuit Rave Outfit (women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit)
+[ProductCache] Found product by direct lookup: Women Red Phantom Mesh Jumpsuit Wood Shell Mesh Bodysuit Halloween Zentai Suit Outdoor Adventure Theme Party Catsuit Rave Outfit
+ GET /product/women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit 200 in 5883ms
+[WooCommerce] Fetching categories...
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit
+[ProductCache] Looking up product with original slug: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[ProductCache] Normalized slug: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[ProductCache] Found product in cache: Women Red Phantom Mesh Jumpsuit Wood Shell Mesh Bodysuit Halloween Zentai Suit Outdoor Adventure Theme Party Catsuit Rave Outfit
+[ProductPage] Found product: Women Red Phantom Mesh Jumpsuit Wood Shell Mesh Bodysuit Halloween Zentai Suit Outdoor Adventure Theme Party Catsuit Rave Outfit
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit
+[ProductCache] Looking up product with original slug: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[ProductCache] Normalized slug: "women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit"
+[ProductCache] Found product in cache: Women Red Phantom Mesh Jumpsuit Wood Shell Mesh Bodysuit Halloween Zentai Suit Outdoor Adventure Theme Party Catsuit Rave Outfit
+[WooCommerce] Successfully fetched 25 categories
+ GET /product/women-red-phantom-mesh-jumpsuit-wood-shell-mesh-bodysuit-halloween-zentai-suit-outdoor-adventure-theme-party-catsuit-rave-outfit 200 in 218ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ ✓ Compiled /[slug] in 436ms (1152 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+
+=== FETCHING WOOCOMMERCE CATEGORIES ===
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+[CategoryPage] Rendering category: Festival and Rave Bucket Hats
+[ProductCache] Getting products for category: festival-rave-hats
+
+All WooCommerce categories:
+
+Category: Accessories
+  slug: "accessories"
+  id: 32
+  parent: 0
+
+Category: Festival and Rave Blankets
+  slug: "festival-rave-blankets"
+  id: 40
+  parent: 58
+
+Category: Festival and Rave Bucket Hats
+  slug: "festival-rave-hats"
+  id: 35
+  parent: 32
+
+Category: Festival and Rave Hoodie Blankets
+  slug: "festival-rave-hoodie-blankets"
+  id: 39
+  parent: 58
+
+Category: Festival and Rave Pashminas
+  slug: "festival-rave-pashmina"
+  id: 36
+  parent: 32
+
+Category: Festival and Rave Tapestries
+  slug: "festival-rave-tapestries"
+  id: 38
+  parent: 58
+
+Category: Festival Camping
+  slug: "camping-festival"
+  id: 58
+  parent: 0
+
+Category: Festival Rave Bags
+  slug: "festival-rave-bags"
+  id: 224
+  parent: 32
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms"
+  id: 42
+  parent: 30
+
+Category: Festival Rave Bottoms
+  slug: "festival-rave-bottoms-men"
+  id: 49
+  parent: 31
+
+Category: Festival Rave Dresses
+  slug: "festival-rave-dresses"
+  id: 43
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear"
+  id: 44
+  parent: 30
+
+Category: Festival Rave Outerwear
+  slug: "festival-rave-outerwear-men"
+  id: 50
+  parent: 31
+
+Category: Festival Rave Outfits
+  slug: "festival-rave-outfits"
+  id: 51
+  parent: 30
+
+Category: Festival Rave Sunglasses
+  slug: "festival-rave-sunglasses"
+  id: 37
+  parent: 32
+
+Category: Festival Rave Swimwear
+  slug: "festival-rave-swimwear"
+  id: 45
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops"
+  id: 41
+  parent: 30
+
+Category: Festival Rave Tops
+  slug: "festival-rave-tops-men"
+  id: 48
+  parent: 31
+
+Category: Men
+  slug: "men"
+  id: 31
+  parent: 0
+
+Category: Men's Festival Rave Footwear
+  slug: "mens-festival-rave-footwear"
+  id: 47
+  parent: 57
+
+Category: Newly Dropped
+  slug: "newly-dropped"
+  id: 33
+  parent: 0
+
+Category: Shoes
+  slug: "shoes"
+  id: 57
+  parent: 0
+
+Category: Uncategorized
+  slug: "uncategorized"
+  id: 15
+  parent: 0
+
+Category: Women
+  slug: "women"
+  id: 30
+  parent: 0
+
+Category: Women's Festival Rave Footwear
+  slug: "womens-festival-rave-footwear"
+  id: 46
+  parent: 57
+[ProductCache] Found category ID: 35 for slug: festival-rave-hats
+[ProductCache] Found 33 products for category: festival-rave-hats
+ GET /festival-rave-hats 200 in 1574ms
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: swirlicious-bucket-hat-2
+[ProductCache] Looking up product with original slug: "swirlicious-bucket-hat-2"
+[ProductCache] Normalized slug: "swirlicious-bucket-hat-2"
+[ProductCache] Trying direct slug lookup: "swirlicious-bucket-hat-2"
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: swirlicious-bucket-hat-2
+[ProductCache] Looking up product with original slug: "swirlicious-bucket-hat-2"
+[ProductCache] Normalized slug: "swirlicious-bucket-hat-2"
+[ProductCache] Trying direct slug lookup: "swirlicious-bucket-hat-2"
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: Swirlicious Bucket Hat (swirlicious-bucket-hat-2)
+[ProductCache] Found product by direct lookup: Swirlicious Bucket Hat
+[ProductPage] Found product: Swirlicious Bucket Hat
+[ProductCache] Direct lookup returned 1 products
+[ProductCache] Found product: Swirlicious Bucket Hat (swirlicious-bucket-hat-2)
+[ProductCache] Found product by direct lookup: Swirlicious Bucket Hat
+ GET /product/swirlicious-bucket-hat-2 200 in 257ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:47:44)
+  45 |
+  46 | export default async function ProductPage({ params }: PageProps) {
+> 47 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  48 |   if (!slug) {
+  49 |     console.log(`[ProductPage] No slug provided`);
+  50 |     notFound();
+[ProductPage] Loading product with slug: swirlicious-bucket-hat-2
+[ProductCache] Looking up product with original slug: "swirlicious-bucket-hat-2"
+[ProductCache] Normalized slug: "swirlicious-bucket-hat-2"
+[ProductCache] Found product in cache: Swirlicious Bucket Hat
+[ProductPage] Found product: Swirlicious Bucket Hat
+Error: Route "/product/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at slug (src/app/product/[slug]/page.tsx:19:44)
+  17 |   { params }: GenerateMetadataProps
+  18 | ): Promise<Metadata> {
+> 19 |   const slug = await Promise.resolve(params.slug);
+     |                                            ^
+  20 |   if (!slug) {
+  21 |     return {
+  22 |       title: 'Product Not Found',
+[ProductPage] Generating metadata for slug: swirlicious-bucket-hat-2
+[ProductCache] Looking up product with original slug: "swirlicious-bucket-hat-2"
+[ProductCache] Normalized slug: "swirlicious-bucket-hat-2"
+[ProductCache] Found product in cache: Swirlicious Bucket Hat
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET /product/swirlicious-bucket-hat-2 200 in 362ms
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ ✓ Compiled / in 301ms (1157 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET / 200 in 630ms
+ ✓ Compiled in 642ms (1161 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET / 200 in 510ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 582ms (1150 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET /images/FRGLogo1.png 404 in 929ms
+ ⨯ The requested resource isn't a valid image for /images/FRGLogo1.png received text/html; charset=utf-8
+ ✓ Compiled in 408ms (1164 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+ GET / 200 in 214ms

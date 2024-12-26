@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="32px" viewBox="0 0 100 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FF6B00" x="10" y="4" width="80" height="24" rx="4"/>
+        <path d="M20,16 C20,13.2 22.2,11 25,11 C27.8,11 30,13.2 30,16 C30,18.8 27.8,21 25,21 C22.2,21 20,18.8 20,16 Z M35,11 L40,21 L45,11 M50,11 L50,21 L55,21 L60,16 L65,21 L70,21 L70,11 L65,11 L60,16 L55,11 L50,11 Z" fill="#FFFFFF"/>
+    </g>
+</svg>

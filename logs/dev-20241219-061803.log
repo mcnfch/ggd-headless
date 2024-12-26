@@ -1,0 +1,195 @@
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · turbo
+     · optimizeCss
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'swcMinify' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 1475ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 3.8s (1142 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ ✓ Compiled in 563ms (520 modules)
+ GET /blog 200 in 4400ms
+ ✓ Compiled /refunds-and-returns in 336ms (1133 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET /refunds-and-returns 200 in 419ms
+ ✓ Compiled in 525ms (1147 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+ GET /refunds-and-returns 200 in 256ms
+ ✓ Compiled in 343ms (1132 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+ GET /refunds-and-returns 200 in 261ms
+ ✓ Compiled in 400ms (1132 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+ GET /refunds-and-returns 200 in 261ms
+ ✓ Compiled in 328ms (1132 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+ GET /refunds-and-returns 200 in 229ms
+ ○ Compiling /contact-us ...
+ ✓ Compiled /contact-us in 510ms (1125 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+ GET /contact-us 200 in 553ms
+ ○ Compiling / ...
+ ✓ Compiled / in 702ms (1148 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: all
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Successfully fetched 100 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 61 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 4468ms
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: all
+[WooCommerce] Successfully fetched 100 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 61 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 3575ms
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Fetching products for category: all
+[WooCommerce] Successfully fetched 100 products
+[WooCommerce] Fetching products for category: accessories
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 61 products
+[WooCommerce] Fetching products for category: women
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 78 products
+[WooCommerce] Fetching products for category: men
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: shoes
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 5 products
+[WooCommerce] Fetching products for category: camping-festival
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+[WooCommerce] Successfully fetched 42 products
+ GET / 200 in 3565ms
+ ✓ Compiled in 801ms (1142 modules)
+[WooCommerce] API Configuration: {
+  url: 'https://woo.festivalravegear.com',
+  hasKey: true,
+  hasSecret: true
+}
+[WooCommerce] Initializing API with URL: https://woo.festivalravegear.com
+[WooCommerce] Fetching categories...
+[WooCommerce] Fetching categories...
+[WooCommerce] Successfully fetched 25 categories
+ GET /contact-us 200 in 750ms
+[WooCommerce] Successfully fetched 25 categories
+ GET /contact-us 200 in 375ms
