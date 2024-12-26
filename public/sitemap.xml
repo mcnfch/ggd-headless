@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://woo.festivalravegear.com/account/orders/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/robots.txt/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/contact-us/success/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/login/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/refunds-and-returns/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/contact-us/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/register/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/checkout/success/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/api/sitemap/</loc><lastmod>2024-12-21T06:12:25.088Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/blog/</loc><lastmod>2024-12-21T06:12:25.089Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/shop/</loc><lastmod>2024-12-21T06:12:25.089Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/category-old/test/</loc><lastmod>2024-12-21T06:12:25.089Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/checkout/</loc><lastmod>2024-12-21T06:12:25.089Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/cart/</loc><lastmod>2024-12-21T06:12:25.089Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://woo.festivalravegear.com/profile/</loc><lastmod>2024-12-21T06:12:25.089Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/api/sitemap/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/robots.txt/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/account/orders/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/contact-us/success/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/profile/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/register/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/category-old/test/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/shipping/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/contact-us/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/checkout/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/blog/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/shop/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/login/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/cart/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/refunds-and-returns/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/sustainability/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://woo.festivalravegear.com/checkout/success/</loc><lastmod>2024-12-26T00:20:12.090Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
