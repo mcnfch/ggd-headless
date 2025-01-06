@@ -6,9 +6,11 @@ import menuConfig from '@/config/menu.json';
 
 interface MenuItem {
   title: string;
-  type: 'product' | 'non-product';
+  type: 'product';
   visible: boolean;
   order: number;
+  customImage?: string;
+  customDescription?: string;
 }
 
 // Set revalidation time to 0 to ensure fresh data on each request
@@ -21,8 +23,8 @@ function titleToSlug(title: string): string {
     'Accessories': 'accessories',
     'Women': 'women',
     'Men': 'men',
-    'Shoes': 'shoes',
-    'Newly Dropped': 'newly-dropped'
+    'Groovy Gear': 'groovy-gear',
+    'Custom Designs': 'custom-designs'
   };
   return slugMap[title] || title.toLowerCase().replace(/\s+/g, '-');
 }
@@ -33,24 +35,43 @@ export default async function Home() {
   
   // Get menu configuration
   const menuItems = (menuConfig as { menuItems: MenuItem[] }).menuItems
-    .filter(item => item.visible && item.type === 'product')
+    .filter(item => item.visible)
     .sort((a, b) => a.order - b.order);
 
   // Match categories with menu items and fetch random products
   const categoryProducts = {};
   const categoryDescriptions = {};
-  
-  const slugs = [
-    'new-arrivals',
-    'featured-collections',
-    'women',
-    'men',
-    'accessories',
-    'groovy-gear'
-  ];
 
   for (const menuItem of menuItems) {
-    let categorySlug = titleToSlug(menuItem.title);
+    const slug = titleToSlug(menuItem.title);
+    
+    // Handle Custom Designs special case
+    if (menuItem.title === "Custom Designs") {
+      try {
+        const { products } = await getProducts('custom-designs');
+        if (products.length > 0) {
+          const randomIndex = Math.floor(Math.random() * products.length);
+          categoryProducts[slug] = products[randomIndex];
+          categoryDescriptions[slug] = "Express your unique style with our custom design service. Let's create something extraordinary together!";
+        } else {
+          // Fallback if no products found
+          categoryProducts[slug] = {
+            images: [{ src: '/images/custom-designs.jpg' }],
+            name: menuItem.title
+          };
+          categoryDescriptions[slug] = "Express your unique style with our custom design service. Let's create something extraordinary together!";
+        }
+      } catch (error) {
+        console.error('Error fetching custom designs:', error);
+        // Fallback on error
+        categoryProducts[slug] = {
+          images: [{ src: '/images/custom-designs.jpg' }],
+          name: menuItem.title
+        };
+        categoryDescriptions[slug] = "Express your unique style with our custom design service. Let's create something extraordinary together!";
+      }
+      continue;
+    }
     
     // Handle "New Arrivals" special case
     if (menuItem.title === "New Arrivals") {
@@ -58,12 +79,12 @@ export default async function Home() {
         const { products } = await getProducts('', { 
           orderby: 'date',
           order: 'desc',
-          per_page: 20 // Fetch more products to get a good random selection
+          per_page: 20
         });
         if (products.length > 0) {
           const randomIndex = Math.floor(Math.random() * products.length);
-          categoryProducts[categorySlug] = products[randomIndex];
-          categoryDescriptions[categorySlug] = "Discover our latest arrivals - fresh styles added daily!";
+          categoryProducts[slug] = products[randomIndex];
+          categoryDescriptions[slug] = "Discover our latest arrivals - fresh styles added daily!";
         }
       } catch (error) {
         console.error('Error fetching new arrivals:', error);
@@ -79,8 +100,8 @@ export default async function Home() {
           const { products } = await getProducts(category.slug);
           if (products.length > 0) {
             const randomIndex = Math.floor(Math.random() * products.length);
-            categoryProducts[categorySlug] = products[randomIndex];
-            categoryDescriptions[categorySlug] = category.description || '';
+            categoryProducts[slug] = products[randomIndex];
+            categoryDescriptions[slug] = category.description || '';
           }
         } catch (error) {
           console.error(`Error fetching products for category ${category.slug}:`, error);
@@ -92,16 +113,20 @@ export default async function Home() {
   return (
     <main>
       <Hero />
-      <CategoryGrid categories={menuItems.map(item => {
-        const slug = titleToSlug(item.title);
-        return {
-          id: slug,
-          name: item.title,
-          href: `/product-category/${slug}`,
-          description: categoryDescriptions[slug],
-          product: categoryProducts[slug]
-        };
-      })} />
+      <CategoryGrid 
+        categories={menuItems.map(item => {
+          const slug = titleToSlug(item.title);
+          const isCustomDesigns = item.title === "Custom Designs";
+          return {
+            id: slug,
+            name: item.title,
+            href: isCustomDesigns ? '/custom-designs' : `/product-category/${slug}`,
+            description: categoryDescriptions[slug],
+            product: categoryProducts[slug],
+            isCustom: isCustomDesigns
+          };
+        })}
+      />
     </main>
   );
 }

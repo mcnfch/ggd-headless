@@ -9,9 +9,11 @@ import { useAuth } from '@/context/AuthContext';
 import type { WooCategory } from '@/lib/types';
 import { filterAndSortCategories } from '@/lib/utils/categoryUtils';
 
-const CartIcon = dynamic(() => import('./CartIcon'), {
+const CartIcon = dynamic(() => import('../cart/CartIcon'), {
   ssr: false,
-  loading: () => <div className="w-10 h-10 animate-pulse bg-gray-200 rounded-full" />
+  loading: () => (
+    <div className="w-6 h-6 animate-pulse bg-gray-200 rounded-full" />
+  )
 });
 
 const MobileMenu = dynamic(() => import('./MobileMenu').then(mod => mod.MobileMenu), {
@@ -188,11 +190,7 @@ export function Header({ categories }: HeaderProps) {
                 {/* Cart Icon */}
                 <div className="relative text-white hover:text-[#997997] transition-colors">
                   <Suspense fallback={<div className="w-10 h-10 animate-pulse bg-gray-200 rounded-full" />}>
-                    <CartIcon 
-                      count={cartCount} 
-                      isCartOpen={isCartOpen}
-                      onCartClick={() => setIsCartOpen(!isCartOpen)}
-                    />
+                    <CartIcon count={cartCount} />
                   </Suspense>
                 </div>
 

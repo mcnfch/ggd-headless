@@ -5,18 +5,18 @@ import { useState } from 'react';
 import type { WooCategory } from '@/lib/types';
 import { filterAndSortCategories } from '@/lib/utils/categoryUtils';
 
-const quickLinks = [
-  { href: '/about-us', label: 'About Us' },
-  { href: '/sustainability', label: 'Sustainability' },
-  { href: '/shipping', label: 'Shipping' },
-  { href: '/refunds-and-returns', label: 'Refunds & Returns' },
-  { href: '/contact-us', label: 'Contact Us' },
-  { href: '/blog', label: 'Blog' },
-];
-
 interface FooterProps {
   categories: WooCategory[];
 }
+
+const quickLinks = [
+  { href: '/about-us', label: 'About Us' },
+  { href: '/sustainability', label: 'Sustainability' },
+  { href: '/shipping-returns', label: 'Shipping & Returns' },
+  { href: '/my-account', label: 'My Account' },
+  { href: '/contact-us', label: 'Contact Us' },
+  { href: '/blog', label: 'Blog' },
+];
 
 export function Footer({ categories }: FooterProps) {
   const [email, setEmail] = useState('');
@@ -99,7 +99,7 @@ export function Footer({ categories }: FooterProps) {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Festival Rave Gear. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Groovy Gallery Designs. All rights reserved.</p>
         </div>
       </div>
     </footer>

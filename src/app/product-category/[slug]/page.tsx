@@ -37,33 +37,19 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       return notFound();
     }
 
-    // If this is the custom designs category, render the service options
-    if (params.slug === 'custom-designs') {
+    // Special handling for custom designs category
+    if (category.slug === 'custom-designs') {
       return (
-        <main>
+        <main className="flex-grow mb-16 main-content">
           <div className="max-w-[1920px] mx-auto px-4">
-            <Breadcrumbs items={[
-              { label: 'Home', href: '/' },
-              { label: 'Shop', href: '/shop' },
-              { label: category.name }
-            ]} />
-
-            <div className="bg-[#997997] text-white">
-              <div className="container mx-auto px-4">
-                <div className="max-w-4xl mx-auto text-center py-8">
-                  <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-3">
-                    Custom Design Services
-                  </h1>
-                  <p className="text-lg">
-                    Choose from our custom design services below
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="container mx-auto py-12">
-              <CustomDesignsSection />
-            </div>
+            <Breadcrumbs
+              items={[
+                { label: 'Home', href: '/' },
+                { label: 'Shop', href: '/shop/' },
+                { label: category.name, href: '#' },
+              ]}
+            />
+            <CustomDesignsSection />
           </div>
         </main>
       );
@@ -77,15 +63,59 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       return <NoProductsFound categoryName={category.name} />;
     }
 
+    // Generate schema for the category page
+    const categorySchema = {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/product-category/${category.slug}`,
+      name: category.name,
+      description: category.description || `Shop ${category.name} at Groovy Gallery Designs`,
+      url: `${process.env.NEXT_PUBLIC_SITE_URL}/product-category/${category.slug}`,
+      mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: filteredProducts.length,
+        itemListElement: filteredProducts.map((product, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          item: {
+            '@type': 'Product',
+            '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`,
+            name: product.name,
+            description: product.description?.replace(/<[^>]*>/g, '') || '',
+            image: product.images?.map(img => img.src) || [],
+            url: `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`,
+            sku: product.sku,
+            brand: {
+              '@type': 'Brand',
+              name: 'Groovy Gallery Designs'
+            },
+            offers: {
+              '@type': 'Offer',
+              price: product.price,
+              priceCurrency: 'USD',
+              itemCondition: 'https://schema.org/NewCondition',
+              availability: product.stock_status === 'instock' 
+                ? 'https://schema.org/InStock' 
+                : 'https://schema.org/OutOfStock',
+              url: `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`
+            }
+          }
+        }))
+      }
+    };
+
     return (
-      <main>
+      <main className="flex-grow mb-16 main-content">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(categorySchema) }}
+        />
         <div className="max-w-[1920px] mx-auto px-4">
           <Breadcrumbs items={[
             { label: 'Home', href: '/' },
-            { label: 'Shop', href: '/shop' },
-            { label: category.name }
+            { label: 'Shop', href: '/shop/' },
+            { label: category.name, href: '#' },
           ]} />
-
           <CategoryHeader
             title={category.name}
             description={category.description}
@@ -97,7 +127,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       </main>
     );
   } catch (error) {
-    console.error('Error in CategoryPage:', error);
-    return notFound();
+    console.error(`[CategoryPage] Error:`, error);
+    return <NoProductsFound categoryName={params.slug} />;
   }
 }

@@ -8,10 +8,10 @@
       "order": 1
     },
     {
-      "title": "Custom Designs",
-      "type": "service",
+      "title": "Accessories",
+      "type": "product",
       "visible": true,
-      "order": 6
+      "order": 2
     },
     {
       "title": "Women",
@@ -26,16 +26,18 @@
       "order": 4
     },
     {
-      "title": "Accessories",
-      "type": "product",
-      "visible": true,
-      "order": 2
-    },
-    {
       "title": "Groovy Gear",
       "type": "product",
       "visible": true,
       "order": 5
+    },
+    {
+      "title": "Custom Designs",
+      "type": "product",
+      "visible": true,
+      "order": 6,
+      "customImage": "/images/custom-designs.jpg",
+      "customDescription": "Express your unique style with our custom design service. Let's create something extraordinary together!"
     }
   ]
 }

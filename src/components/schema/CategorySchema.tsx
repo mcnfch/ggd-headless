@@ -11,9 +11,11 @@ export function CategorySchema({ category, products }: CategorySchemaProps) {
     {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
+      '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/${category.slug}`,
       name: category.name,
       description: category.description || `Shop ${category.name} at Groovy Gallery Designs`,
-      url: `${process.env.NEXT_PUBLIC_SITE_URL}/product-category/${category.slug}`,
+      url: `${process.env.NEXT_PUBLIC_SITE_URL}/${category.slug}`,
+      numberOfItems: products.length,
       breadcrumb: {
         '@type': 'BreadcrumbList',
         itemListElement: [
@@ -37,7 +39,7 @@ export function CategorySchema({ category, products }: CategorySchemaProps) {
             '@type': 'ListItem',
             position: 3,
             item: {
-              '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/product-category/${category.slug}`,
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/${category.slug}`,
               name: category.name
             }
           }
@@ -45,6 +47,7 @@ export function CategorySchema({ category, products }: CategorySchemaProps) {
       },
       mainEntity: {
         '@type': 'ItemList',
+        numberOfItems: products.length,
         itemListElement: products.map((product, index) => ({
           '@type': 'ListItem',
           position: index + 1,
@@ -53,7 +56,7 @@ export function CategorySchema({ category, products }: CategorySchemaProps) {
             '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`,
             name: product.name,
             description: product.description?.replace(/<[^>]*>/g, '') || '',
-            image: product.images?.[0]?.src || '',
+            image: product.images?.map(img => img.src) || [],
             url: `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`,
             sku: product.sku,
             brand: {
@@ -64,6 +67,7 @@ export function CategorySchema({ category, products }: CategorySchemaProps) {
               '@type': 'Offer',
               price: product.price,
               priceCurrency: 'USD',
+              itemCondition: 'https://schema.org/NewCondition',
               availability: product.stock_status === 'instock' 
                 ? 'https://schema.org/InStock' 
                 : 'https://schema.org/OutOfStock',

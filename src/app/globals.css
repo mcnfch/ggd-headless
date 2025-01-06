@@ -33,7 +33,7 @@ body::before {
 .main-content {
   position: relative;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(255 255 255 / 0%);
   min-height: 100vh;
 }
 
@@ -87,6 +87,11 @@ body::before {
 /* Shop now button custom padding */
 .shop-now-button {
   padding: 0 5px;
+}
+
+.wp-content, article {
+  background-color: rgb(255 255 255 / 0.5);
+  backdrop-filter: blur(10px);
 }
 
 /* Add more custom styles as needed */

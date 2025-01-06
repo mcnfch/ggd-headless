@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function Hero() {
   return (
-    <div className="relative w-full min-h-[300px] md:min-h-[500px] flex bg-black">
+    <div className="relative w-full min-h-[500px] flex bg-black">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -20,62 +20,42 @@ export function Hero() {
         />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 flex flex-col justify-end pb-4 md:pb-8">
-        <div className="flex justify-start items-end gap-4">
-          {/* Text Content */}
-          <div className="max-w-[600px] md:max-w-[500px] lg:max-w-[600px]">
-            {/* Social Proof */}
-            <p className="text-[12px] md:text-[15px] text-white/80 mb-[4px] md:mb-[8px] font-bold">
-              Over 1,000 festival-goers rave about our custom designs
-            </p>
+      {/* Content Container */}
+      <div className="container mx-auto px-6 relative z-10 flex flex-col justify-center">
+        {/* Text Content with descending sizes */}
+        <div className="max-w-[335px] sm:max-w-[600px] md:max-w-[800px]">
+          <h1 className="text-[32px] sm:text-[38px] md:text-[45px] font-bold text-white mb-3 sm:mb-4 leading-[1.1]">
+            Be Unique Choose Boutique
+          </h1>
+          
+          <h2 className="text-[24px] sm:text-[28px] md:text-[30px] font-bold text-white mb-3 sm:mb-4 leading-[1.2]">
+            Glow Up Your Rizz with Custom Drip
+          </h2>
+          
+          <h3 className="text-[24px] sm:text-[28px] md:text-[30px] font-bold text-white mb-6 sm:mb-8 leading-[1.2]">
+            Created by Us or Designed by You!
+          </h3>
 
-            {/* Main Heading */}
-            <h2 className="text-[32px] md:text-[45px] font-bold text-white mb-[8px] md:mb-[12px] mt-0 leading-[1.1] md:leading-[1.2]">
-              Never blend in at{" "}
-              <br /> 
-              a festival again
-            </h2>
-
-            {/* Supporting Text */}
-            <p className="text-[1rem] md:text-[1.5rem] text-white/90 leading-[1.3] md:leading-[1.4] mr-[10%] md:mr-[20%] mb-[8px] md:mb-[16px]">
-              Our unique, artfully crafted{" "}
-              <br /> 
-              designs ensure you shine.
-            </p>
-
-            {/* CTA Buttons */}
-            <div className="mt-[8px] md:mt-[16px]">
-              <div className="flex gap-3 md:gap-4">
-                <Link
-                  href="/shop"
-                  className="inline-block px-4 md:px-6 py-2 md:py-3 bg-[#997997] text-white text-[1rem] md:text-[1.2rem] font-bold 
-                    rounded-[5px] no-underline transition-all duration-300 hover:bg-[#886886]"
-                >
-                  Learn More
-                </Link>
-                <Link
-                  href="/shop"
-                  className="inline-block px-4 md:px-6 py-2 md:py-3 bg-[#997997] text-white text-[1rem] md:text-[1.2rem] font-bold 
-                    rounded-[5px] no-underline transition-all duration-300 hover:bg-[#886886]"
-                >
-                  Shop Now
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Hero Model Image */}
-          <div className="relative w-[240px] md:w-[320px] h-[168px] md:h-[384px] -mr-4 md:-mr-8">
-            <Image
-              src="/images/hero-model.png?v=1"
-              alt="Festival model"
-              fill
-              className="object-contain object-left"
-              sizes="(max-width: 768px) 240px, 320px"
-              priority
-              loading="eager"
-              quality={90}
-            />
+          {/* Buttons Container */}
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+            <Link
+              href="/learn"
+              className="w-full sm:w-auto text-white text-sm md:text-base font-semibold px-5 py-2 md:px-6 md:py-2.5 
+                bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 
+                rounded-full transform transition-all duration-300 hover:scale-105 
+                shadow-lg hover:shadow-xl border border-white/20 text-center"
+            >
+              Learn More
+            </Link>
+            <Link
+              href="/explore"
+              className="w-full sm:w-auto text-white text-sm md:text-base font-semibold px-5 py-2 md:px-6 md:py-2.5 
+                bg-gradient-to-r from-fuchsia-600 to-violet-600 hover:from-fuchsia-700 hover:to-violet-700 
+                rounded-full transform transition-all duration-300 hover:scale-105 
+                shadow-lg hover:shadow-xl border border-white/20 text-center"
+            >
+              Explore More
+            </Link>
           </div>
         </div>
       </div>

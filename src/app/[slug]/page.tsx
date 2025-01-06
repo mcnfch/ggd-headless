@@ -9,16 +9,15 @@ import { CategoryHero } from '@/components/category/CategoryHero';
 import { NoProductsFound } from '@/components/product/NoProductsFound';
 
 interface PageProps {
-  params: Promise<{
+  params: {
     slug: string;
-  }>;
+  };
 }
 
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const resolvedParams = await params;
-  const { slug } = resolvedParams;
+  const { slug } = params;
   
   try {
     const categories = await categoryCache.getAllCategories();
@@ -41,12 +40,10 @@ export async function generateMetadata({
 }
 
 export default async function Page({ params }: PageProps) {
-  const resolvedParams = await params;
-  const { slug } = resolvedParams;
+  const { slug } = params;
   
   try {
     const categories = await categoryCache.getAllCategories();
-    
     // Debug: Log all categories and the current slug
     console.log('\nAttempting to match slug:', slug);
     console.log('\nAvailable categories:');
@@ -65,7 +62,52 @@ export default async function Page({ params }: PageProps) {
     const { products } = await productCache.getProductsByCategory(category.slug);
 
     return (
-      <div>
+      <div className="container mx-auto px-4 py-8">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'CollectionPage',
+              '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/${category.slug}`,
+              name: category.name,
+              description: category.description || `Shop ${category.name} at Groovy Gallery Designs`,
+              url: `${process.env.NEXT_PUBLIC_SITE_URL}/${category.slug}`,
+              numberOfItems: products.length,
+              mainEntity: {
+                '@type': 'ItemList',
+                numberOfItems: products.length,
+                itemListElement: products.map((product, index) => ({
+                  '@type': 'ListItem',
+                  position: index + 1,
+                  item: {
+                    '@type': 'Product',
+                    '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`,
+                    name: product.name,
+                    description: product.description?.replace(/<[^>]*>/g, '') || '',
+                    image: product.images?.map(img => img.src) || [],
+                    url: `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`,
+                    sku: product.sku,
+                    brand: {
+                      '@type': 'Brand',
+                      name: 'Groovy Gallery Designs'
+                    },
+                    offers: {
+                      '@type': 'Offer',
+                      price: product.price,
+                      priceCurrency: 'USD',
+                      itemCondition: 'https://schema.org/NewCondition',
+                      availability: product.stock_status === 'instock' 
+                        ? 'https://schema.org/InStock' 
+                        : 'https://schema.org/OutOfStock',
+                      url: `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`
+                    }
+                  }
+                }))
+              }
+            })
+          }}
+        />
         <CategoryHero category={category} />
         {products && products.length > 0 ? (
           <ProductGrid products={products} />

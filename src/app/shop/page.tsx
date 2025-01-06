@@ -81,12 +81,6 @@ export default function ShopPage() {
 
   return (
     <main>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateProductListSchema(products))
-        }}
-      />
       <div className="max-w-[1920px] mx-auto px-4">
         <Breadcrumbs items={breadcrumbItems} />
         <ShopHeader 
@@ -97,6 +91,12 @@ export default function ShopPage() {
           currentSort={currentSort}
         />
         <div className="container mx-auto py-6 md:py-8">
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(generateProductListSchema(products))
+            }}
+          />
           <ProductGrid products={products} />
         </div>
       </div>

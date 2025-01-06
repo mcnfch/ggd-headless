@@ -1,7 +1,6 @@
 import { productCache } from '@/lib/cache/productCache';
 import { ProductDetails } from '@/components/product/ProductDetails';
 import { ProductSchema } from '@/components/schema/ProductSchema';
-import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
@@ -74,7 +73,7 @@ export default async function ProductPage({ params }: PageProps) {
   return (
     <main>
       <div className="container mx-auto px-4 py-6">
-        <Breadcrumbs items={breadcrumbItems} />
+        {/* <Breadcrumbs items={breadcrumbItems} /> */}
         <ProductSchema product={product} />
         <ProductDetails product={product} />
       </div>

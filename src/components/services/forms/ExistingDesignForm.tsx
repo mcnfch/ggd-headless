@@ -8,8 +8,9 @@ interface ExistingDesignFormProps {
 }
 
 interface FormData {
-  productUrl: string;
   designUrl: string;
+  productUrl: string;
+  notes: string;
 }
 
 const ExistingDesignForm: React.FC<ExistingDesignFormProps> = ({ onBack }) => {
@@ -30,7 +31,7 @@ const ExistingDesignForm: React.FC<ExistingDesignFormProps> = ({ onBack }) => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto bg-white/80 p-[18px]">
       <button
         onClick={onBack}
         className="mb-6 text-gray-600 hover:text-gray-900 flex items-center"
@@ -41,6 +42,21 @@ const ExistingDesignForm: React.FC<ExistingDesignFormProps> = ({ onBack }) => {
       <h2 className="text-2xl font-bold mb-6">Add Existing Design to Product</h2>
       
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+            Design URL
+          </label>
+          <input
+            type="url"
+            {...register('designUrl', { required: 'Design URL is required' })}
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+            placeholder="https://example.com/design"
+          />
+          {errors.designUrl && (
+            <p className="mt-1 text-sm text-red-600">{errors.designUrl.message}</p>
+          )}
+        </div>
+
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Product URL
@@ -58,23 +74,26 @@ const ExistingDesignForm: React.FC<ExistingDesignFormProps> = ({ onBack }) => {
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Design URL
+            Additional Notes
           </label>
-          <input
-            type="url"
-            {...register('designUrl', { required: 'Design URL is required' })}
+          <textarea
+            {...register('notes')}
+            rows={3}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-            placeholder="https://example.com/design"
+            placeholder="Any specific requirements or modifications..."
           />
-          {errors.designUrl && (
-            <p className="mt-1 text-sm text-red-600">{errors.designUrl.message}</p>
-          )}
         </div>
 
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark transition-colors disabled:opacity-50"
+          className="w-full text-white font-semibold py-3 px-6 rounded-md
+            bg-gradient-to-r from-purple-600 to-pink-600
+            hover:from-purple-700 hover:to-pink-700
+            transform transition-all duration-300
+            hover:scale-[1.02] shadow-lg hover:shadow-xl
+            disabled:opacity-50 disabled:cursor-not-allowed
+            disabled:hover:scale-100"
         >
           {isSubmitting ? 'Submitting...' : 'Submit Request'}
         </button>

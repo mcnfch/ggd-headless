@@ -19,11 +19,14 @@ export function generateProductSchema(product: Product) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
+    '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/product/${product.slug}`,
     name: product.name,
     description: product.description?.replace(/<[^>]*>/g, '') || '',
-    image: product.images?.[0]?.src || '',
+    image: product.images?.map(img => img.src) || [],
     sku: product.sku,
     mpn: product.id.toString(),
+    productID: product.id.toString(),
+    category: product.categories?.map(cat => cat.name).join(', '),
     brand: {
       '@type': 'Brand',
       name: 'Groovy Gallery Designs'
@@ -34,6 +37,7 @@ export function generateProductSchema(product: Product) {
       priceCurrency: 'USD',
       price: product.price,
       priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString(),
+      itemCondition: 'https://schema.org/NewCondition',
       availability: product.stock_status === 'instock' 
         ? 'https://schema.org/InStock' 
         : 'https://schema.org/OutOfStock',

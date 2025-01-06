@@ -30,7 +30,7 @@ const CustomDesignForm: React.FC<CustomDesignFormProps> = ({ onBack }) => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto bg-white/80 p-[18px]">
       <button
         onClick={onBack}
         className="mb-6 text-gray-600 hover:text-gray-900 flex items-center"
@@ -80,7 +80,13 @@ const CustomDesignForm: React.FC<CustomDesignFormProps> = ({ onBack }) => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark transition-colors disabled:opacity-50"
+          className="w-full text-white font-semibold py-3 px-6 rounded-md
+            bg-gradient-to-r from-purple-600 to-pink-600
+            hover:from-purple-700 hover:to-pink-700
+            transform transition-all duration-300
+            hover:scale-[1.02] shadow-lg hover:shadow-xl
+            disabled:opacity-50 disabled:cursor-not-allowed
+            disabled:hover:scale-100"
         >
           {isSubmitting ? 'Submitting...' : 'Submit Request'}
         </button>

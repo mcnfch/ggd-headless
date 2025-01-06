@@ -1,7 +1,9 @@
 import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
 import type { WooProduct, WooCategory, WooCommerceError } from './types';
+import type { WooMenuItem } from './types/menu';
 import { productCache } from './cache/productCache';
 import { categoryCache } from './cache/categoryCache';
+import { menuCache } from './cache/menuCache';
 import https from 'https';
 import { logger } from './logger';
 
@@ -392,5 +394,14 @@ export async function getCategoryProducts(categoryId: number) {
   } catch (error) {
     logger.error('WooCommerce', 'Error fetching category products:', error);
     throw error;
+  }
+}
+
+export async function getMenuItems(menuId: number): Promise<WooMenuItem[]> {
+  try {
+    return await menuCache.getMenuItems(menuId);
+  } catch (error) {
+    logger.error('WooCommerce', 'Error fetching menu items:', error);
+    return [];
   }
 }

@@ -4,6 +4,7 @@ import { useCart } from '@/context/CartContext';
 import type { WooProduct } from '@/lib/types';
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
+import { useRouter } from 'next/navigation';
 
 const SlideOutCart = dynamic(() => import('../cart/SlideOutCart'), {
   ssr: false,
@@ -26,8 +27,18 @@ export function AddToCartButton({
 }: AddToCartButtonProps) {
   const { addToCart } = useCart();
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const router = useRouter();
+
+  // Check if product has variations that need to be selected
+  const hasRequiredOptions = product.attributes?.some(attr => attr.variation) || false;
 
   const handleClick = async () => {
+    // If product has options, redirect to product page
+    if (hasRequiredOptions && !isProductPage) {
+      router.push(`/product/${product.slug}`);
+      return;
+    }
+
     if (onClick) {
       await onClick();
       return;
@@ -51,28 +62,29 @@ export function AddToCartButton({
   const buttonClasses = `
     ${className}
     ${isProductPage ? 'w-full py-4 px-8 text-lg font-bold rounded-lg shadow-lg transform transition-all duration-200' : 'py-2 px-4 text-base font-medium rounded-md'}
-    ${isEnabled && product.stock_status === 'instock'
+    ${(!hasRequiredOptions || isProductPage) && product.stock_status === 'instock'
       ? 'bg-purple-600 hover:bg-purple-700 hover:scale-[1.02] active:scale-[0.98]'
-      : 'bg-gray-400 cursor-not-allowed'}
+      : hasRequiredOptions && !isProductPage
+        ? 'bg-purple-600 hover:bg-purple-700 hover:scale-[1.02] active:scale-[0.98]'
+        : 'bg-gray-400 cursor-not-allowed'}
     flex items-center justify-center space-x-2 text-white
   `;
+
+  const buttonText = () => {
+    if (product.stock_status !== 'instock') return 'Out of Stock';
+    if (hasRequiredOptions && !isProductPage) return 'Select Options';
+    return 'Add to Cart';
+  };
 
   return (
     <>
       <button
         onClick={handleClick}
-        disabled={!isEnabled || product.stock_status !== 'instock'}
+        disabled={product.stock_status !== 'instock'}
         className={buttonClasses}
       >
-        <span>
-          {!isEnabled 
-            ? 'Select Options' 
-            : product.stock_status === 'instock' 
-              ? 'Add to Cart' 
-              : 'Out of Stock'
-          }
-        </span>
-        {isEnabled && product.stock_status === 'instock' && (
+        <span>{buttonText()}</span>
+        {(!hasRequiredOptions || isProductPage) && product.stock_status === 'instock' && (
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             className="h-5 w-5" 

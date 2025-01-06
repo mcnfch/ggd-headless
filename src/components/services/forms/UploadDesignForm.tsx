@@ -10,6 +10,7 @@ interface UploadDesignFormProps {
 interface FormData {
   productUrl: string;
   designFile: FileList;
+  notes: string;
 }
 
 const UploadDesignForm: React.FC<UploadDesignFormProps> = ({ onBack }) => {
@@ -19,11 +20,8 @@ const UploadDesignForm: React.FC<UploadDesignFormProps> = ({ onBack }) => {
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
     try {
-      // TODO: Implement form submission with file upload
-      console.log('Form data:', {
-        productUrl: data.productUrl,
-        file: data.designFile[0]
-      });
+      // TODO: Implement form submission
+      console.log('Form data:', data);
       alert('Thank you for your submission! We will review your request and get back to you soon.');
     } catch (error) {
       console.error('Error submitting form:', error);
@@ -33,7 +31,7 @@ const UploadDesignForm: React.FC<UploadDesignFormProps> = ({ onBack }) => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto bg-white/80 p-[18px]">
       <button
         onClick={onBack}
         className="mb-6 text-gray-600 hover:text-gray-900 flex items-center"
@@ -77,10 +75,28 @@ const UploadDesignForm: React.FC<UploadDesignFormProps> = ({ onBack }) => {
           </p>
         </div>
 
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+            Additional Notes
+          </label>
+          <textarea
+            {...register('notes')}
+            rows={3}
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+            placeholder="Any specific requirements or modifications..."
+          />
+        </div>
+
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark transition-colors disabled:opacity-50"
+          className="w-full text-white font-semibold py-3 px-6 rounded-md
+            bg-gradient-to-r from-purple-600 to-pink-600
+            hover:from-purple-700 hover:to-pink-700
+            transform transition-all duration-300
+            hover:scale-[1.02] shadow-lg hover:shadow-xl
+            disabled:opacity-50 disabled:cursor-not-allowed
+            disabled:hover:scale-100"
         >
           {isSubmitting ? 'Submitting...' : 'Submit Request'}
         </button>

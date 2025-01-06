@@ -1,11 +1,16 @@
 'use client';
 
+import { FC } from 'react';
+import { ShoppingCartIcon } from '@heroicons/react/24/outline';
 import { useCart } from '@/context/CartContext';
-import { ShoppingBag } from 'lucide-react';
 import { useState } from 'react';
 import SlideOutCart from './SlideOutCart';
 
-export default function CartIcon() {
+interface CartIconProps {
+  count: number;
+}
+
+const CartIcon: FC<CartIconProps> = ({ count }) => {
   const { cart } = useCart();
   const [isCartOpen, setIsCartOpen] = useState(false);
   
@@ -13,16 +18,21 @@ export default function CartIcon() {
 
   return (
     <>
-      <button onClick={() => setIsCartOpen(true)} className="relative inline-flex items-center p-2">
-        <ShoppingBag className="w-6 h-6" />
+      <button 
+        onClick={() => setIsCartOpen(true)}
+        className="relative"
+        aria-label={`Shopping cart with ${itemCount} items`}
+      >
+        <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
         {itemCount > 0 && (
-          <span className="absolute -top-1 -right-1 inline-flex items-center justify-center w-5 h-5 text-xs font-medium text-white bg-primary rounded-full">
+          <span className="absolute -top-2 -right-2 h-5 w-5 rounded-full bg-purple-600 flex items-center justify-center text-xs text-white">
             {itemCount > 99 ? '99+' : itemCount}
           </span>
         )}
       </button>
-      
       <SlideOutCart isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
     </>
   );
-}
+};
+
+export default CartIcon;
