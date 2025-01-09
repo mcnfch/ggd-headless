@@ -108,8 +108,13 @@ export function CartProvider({ children }: { children: ReactNode }) {
       const product = productDetails[item.product_id];
       if (!product?.attributes?.length) return false;
 
+      // For variable products with single options, consider them as selected
+      const hasMultipleOptions = product.attributes.some(attr => attr.variation && attr.options.length > 1);
+      if (!hasMultipleOptions) return false;
+
       const selectedAttributes = item.attributes || [];
       return product.attributes.some(attr => {
+        if (!attr.variation || attr.options.length <= 1) return false;
         const currentValue = selectedAttributes.find(selected => selected.name === attr.name)?.option || '';
         return !currentValue;
       });
@@ -123,58 +128,65 @@ export function CartProvider({ children }: { children: ReactNode }) {
       setLoading(true);
       setError(null);
 
+      // Define a new cart item with the input quantity
       const cartItem: CartItem = {
         product_id: input.product_id,
-        quantity: input.quantity,
+        quantity: input.quantity || 1,
         name: input.name || '',
-        price: input.price,
+        price: input.price ?? 0,
         image: input.image,
         variation_id: input.variation_id,
         attributes: input.attributes || [],
-        optionsRequired: Boolean(input.product?.attributes?.length > 0),
-        optionsSelected: Boolean(input.attributes?.length > 0)
+        optionsRequired: false,
+        optionsSelected: true,
       };
 
-      setCart(prevCart => {
+      setCart((prevCart) => {
         if (!prevCart) {
+          // If the cart is empty, add the item
           return {
             items: [cartItem],
-            subtotal: input.price * input.quantity,
-            total: input.price * input.quantity
+            subtotal: cartItem.price * cartItem.quantity,
+            total: cartItem.price * cartItem.quantity,
           };
         }
 
-        // Check if an identical item already exists
-        const existingItemIndex = prevCart.items.findIndex(item => {
-          // First check product and variation IDs
-          const basicMatch = item.product_id === input.product_id &&
-                           item.variation_id === input.variation_id;
-          
+        // Check if the item already exists in the cart
+        const existingItemIndex = prevCart.items.findIndex((item) => {
+          const basicMatch = item.product_id === input.product_id && item.variation_id === input.variation_id;
           if (!basicMatch) return false;
 
-          // Then check if all attributes match exactly
+          // Check if attributes match exactly
           return attributesMatch(item.attributes, input.attributes);
         });
 
         if (existingItemIndex > -1) {
+          // If the item exists, add the new quantity to the existing quantity
           const updatedItems = [...prevCart.items];
-          updatedItems[existingItemIndex].quantity += input.quantity;
+          const existingItem = { ...updatedItems[existingItemIndex] };
+          existingItem.quantity += input.quantity || 1;
+          updatedItems[existingItemIndex] = existingItem;
 
-          const newSubtotal = prevCart.subtotal + (input.price * input.quantity);
+          const newSubtotal = updatedItems.reduce(
+            (total, item) => total + (item.price ?? 0) * item.quantity,
+            0
+          );
+
           return {
             ...prevCart,
             items: updatedItems,
             subtotal: newSubtotal,
-            total: newSubtotal
+            total: newSubtotal,
           };
         }
 
-        const newSubtotal = prevCart.subtotal + (input.price * input.quantity);
+        // If it's a new item, add it to the cart
+        const newSubtotal = prevCart.subtotal + cartItem.price * cartItem.quantity;
         return {
           ...prevCart,
           items: [...prevCart.items, cartItem],
           subtotal: newSubtotal,
-          total: newSubtotal
+          total: newSubtotal,
         };
       });
     } catch (error) {
